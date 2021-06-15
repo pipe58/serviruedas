@@ -21,7 +21,7 @@ public class Main {
             con=cn.getConnection();
             ps=con.prepareStatement(sql);
             rs=ps.executeQuery();
-            while(rs.next()){
+            while(rs.next()){                
                 // rut,nombre,direccion,telefono,correo
                 System.out.print(rs.getString("rut") + "|" + rs.getString("nombre") + "|" + 
                         rs.getString("direccion") + "|" + rs.getString("telefono")+ "|" + rs.getString("correo") + "\n");

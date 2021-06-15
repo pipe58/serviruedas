@@ -25,6 +25,7 @@ public class UsuarioDAO implements IUsuario{
         Usuario u = new Usuario();
         int retorno = -1;
         String sql="select idusuario from usuario where idusuario ='" + user + "' and pass = '" + pass + "'; ";
+        System.out.println(sql);
         try {
             con=cn.getConnection();
             ps=con.prepareStatement(sql);

@@ -49,14 +49,14 @@
 			</h3>
 			<div class="row">
 				<div class="col-md-12">
-                                    <form role="form" action="UsuarioControl" method="POST">
+                                    <form role="form" action="UsuarioControl" method="POST" >
 						<div class="form-group">							 
                                                     <label for="TextoUsuario">Usuario</label>
-                                                    <input type="text" class="form-control" id="txtUsuario" />
+                                                    <input type="text" class="form-control" name="txtUsuario" id="txtUsuario" />
 						</div>
 						<div class="form-group">							 
                                                     <label for="TextoPass">Password</label>
-                                                    <input type="password" class="form-control" id="txtPass" />
+                                                    <input type="password" class="form-control" name="txtPass" id="txtPass" />
 						</div>
 						<div class="form-group">							
 						</div>
