@@ -144,13 +144,14 @@
         </footer></br>
  
      
-        <script>
+      <script>
    
       $(document).ready(function(){
       $('.carousel').carousel();
     });
-    
-     $('.carousel.carousel-slider').carousel({fullWidth: true})
+        $('.carousel.carousel-slider').carousel({fullWidth: true});
+        //dropdown
+         $('.dropdown-trigger').dropdown();
 autoplay();
 function autoplay() {
     $('.carousel').carousel('next');
