@@ -183,6 +183,20 @@
           </div>
         </footer></br>
         
+<script>
+   
+      $(document).ready(function(){
+      $('.carousel').carousel();
+    });
+        $('.carousel.carousel-slider').carousel({fullWidth: true});
+        //dropdown
+         $('.dropdown-trigger').dropdown();
+autoplay();
+function autoplay() {
+    $('.carousel').carousel('next');
+    setTimeout(autoplay, 4500);
+}
+        </script>
          <script>
         $(document).ready(function(){
       $('.parallax').parallax();
