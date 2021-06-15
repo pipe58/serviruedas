@@ -45,45 +45,45 @@
       
    
      
-      <ul id = "dropdown" class = "dropdown-content" >
-         <li><a href = "#">Inbox<span class = "badge">12</span></a></li>
+    <ul id = "dropdown2" class = "dropdown-content" >
+         <li><a href = "servicios.jsp">Cambios de aceite<span class = "badge"></span></a></li>
            <li class = "divider"></li>
-         <li><a href = "#!">Unread<span class = "new badge">4</span></a></li>
+         <li><a href = "servicios.jsp">Cambios de ruedas<span class = "badge"></span></a></li>
            <li class = "divider"></li>
-         <li><a href = "#">Sent</a></li>
+         <li><a href = "servicios.jsp">Manejo de fugas</a></li>
          <li class = "divider"></li>
-         <li><a href = "#">Outbox<span class = "badge">14</span></a></li>
+         <li><a href = "servicios.jsp">Arreglo de motor<span class = "badge"></span></a></li>
       </ul>
-      <ul id = "dropdown2" class = "dropdown-content" >
-         <li><a href = "#">Inbox<span class = "badge">12</span></a></li>
+          <ul id = "dropdown" class = "dropdown-content" >
+         <li><a href = "productos.jsp">Ruedas<span class = "badge"></span></a></li>
            <li class = "divider"></li>
-         <li><a href = "#!">Unread<span class = "new badge">4</span></a></li>
+         <li><a href = "productos.jsp">Motor<span class = "new badge"></span></a></li>
            <li class = "divider"></li>
-         <li><a href = "#">Sent</a></li>
+         <li><a href = "productos.jsp">Frenos</a></li>
          <li class = "divider"></li>
-         <li><a href = "#">Outbox<span class = "badge">14</span></a></li>
+         <li><a href = "productos.jsp">Y mucho más<span class = "badge"></span></a></li>
       </ul>
       
      
-    <!--inicio menu-->
+       <!--inicio menu-->
       <nav> 
           <div class="nav-wrapper  pink darken-4 "  >
           <div class="row">
                          
       <a href="index.jsp" class="brand-logo">Taller ServiRuedas</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down col s9">
-        <li><a class="dropdown-trigger"  data-activates="dropdown2">Repuestos<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-trigger"  data-activates="dropdown">Repuestos<i class="material-icons right">arrow_drop_down</i></a></li>
        <!-- Dropdown Trigger -->
-      <li><a class="dropdown-trigger"  data-activates="dropdown">Servicios<i class="material-icons right">arrow_drop_down</i></a></li>
-        <li><a href="contacto.jsp">Profesionales</a></li>
+      <li><a class="dropdown-trigger"  data-activates="dropdown2">Servicios<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a href="profesionales.jsp">Profesionales</a></li>
         <li><a class="no-select">     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a></li>
             <li  class="right"><a href="iniciarSesion.jsp">Iniciar Sesión</a></li>
-              <li class="right"><a href="productos.jsp">Contacto</a></li>
+              <li class="right"><a href="contacto.jsp">Contacto</a></li>
               
               
-              <li class="right"><a href="productos.jsp">Nosotros</a></li>
+              <li class="right"><a href="historia.html">Nosotros</a></li>
       </ul>
     
     </div>
