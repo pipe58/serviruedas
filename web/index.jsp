@@ -107,8 +107,8 @@
    
    
       
-  <div class="section no-padding">
-    <div class="row no-padding" >
+ <div class="section no-padding">
+      <div class="row no-padding"style="background-color: lightcyan" >
         <h1 class="red-text accent-4 center" >Bienvenido Taller ServiRuedas</h1>
       <!--boton colapsables-->
       <ul class="collapsible no-padding" data-collapsible="accordion">
@@ -122,59 +122,63 @@
     </div>
   </div>
 
-      <div class="section no-padding"  style="background-image:url('images/f1.png')">
+      <div class="section "  style="background-image:url('images/f1.png')">
        <!--comienzo carta 1-->
-  <div class="section" >
+  <div class="section no-padding" >
     <div class="col s12 m7" style="margin: 40px;background-color: white">
-        <h1 class="card-title grey-text text-darken-4 center">Historia</h1>
-      <div class="card horizontal" height="900">
+        <h1 class="card-title grey-text text-darken-4 center"style="background-color: lightcyan">Historia</h1>
+      <div class="card horizontal" height="1000">
           
         <div class="card-image">
-          <img  src="images/maquina.jpg" fullWidth="true"  object-fit="cover">
+          <img  src="images/viejo.jpg" fullWidth="true"  object-fit="cover">
          
         </div>
         <div class="card-content">
-          <p>Somos la cuarta generación de anticuarios desde que Millaray Ayelen fundó
-              la primera tienda en Bratislava a fines del siglo XIX.</p></br
+          <p>Más de treinta años en el mundo de la industria y la construcción Talleres Azuara es una sociedad de
+              mantenimiento industrial mecánico nacida en Cataluña en 1980.Desde nuestra creación.</p></br
 
-<p>fue de una emigracion desde el sur del país,donde Millaray Ayelen abrió una galería de antigüedades en la calle Huérfanos 624,
-pleno centro de Santiago.</p></br>
-
- 
-
-<p>En 1955 la galería se trasladó a la calle Compañía 1725 y en 1960 a José Miguel de
-    la Barra 454</p></br>
+<p>En Talleres Azuara hemos formado un amplio equipo de profesionales 
+    capaz de prestar una gama de servicios de apoyo y aplicación con las máximas posibilidades de triunfo.</p></br>
 
  
 
-<p>En 1986 la tienda se trasladó a Isidora Goyenechea 2888 ...<p></br>
+<p><h4 class="blue-text accent-4 ">Un gran equipo técnico y humano</h4>
+En Talleres Azuara disponemos de una organización flexible y capaz de adaptarse a las necesidades de 
+cualquier cliente, con profesionales especializados en las distintas áreas, soldadores, montadores, torneros, fresadores,
+ajustadores mecánicos y caldereros, todos ellos con una formación y una experiencia demostrada.</p></br>
+
+ 
+
+<p>En Talleres Azuara resolvemos con éxito y con alta cualificación las situaciones que se nos plantean. ...<p></br>
 
  
 
 
         </div>
         <div class="card-action" >
-            </br></br></br></br></br></br></br></br></br><a  href="historia.jsp">seguir leyendo</a>
+            </br></br></br></br></br></br></br></br></br><a  href="historia.html">seguir leyendo</a>
         </div>
       </div>
     </div>
   </div>
        
               <!--comienzo carta 2-->
-  <div class="section no-padding"style="margin: 40px;background-color: white">
+  <div class="section no-padding"style="margin-bottom: 0px;margin-right:  40px;margin-top: 0px;margin-left: 40px;background-color: white">
       <div class="col s12 m7"></div>
-      <h1 class="card-title grey-text text-darken-4 center">Productos </h1>
+      <h1 class="card-title grey-text text-darken-4 center"style="background-color: lightcyan">Productos </h1>
       <div class="card horizontal" height="900">
         <div class="card-image">
-          <img  src="images/vasija oro.jpg" fullWidth="true"  object-fit="cover">
+          <img  src="images/repuestoPortada.jpg" fullWidth="true"  object-fit="cover">
         
         </div>
         <div class="card-content">
-            <p> <h4>Conservación preventiva:</h4>
-            Control ambiental de la humedad relativa, la temperatura y la iluminación en las salas.</br>
-            Control del estado de conservación, mantenimiento y limpieza superficial de las obras de arte.</br>
-            Enmarcado y montaje de conservación.</br>
-                Supervisión de embalajes, medios de transporte, manipulación de las obras de arte...</p>
+            <p> <h4 class="blue-text accent-4 ">Compra las mejores marcas, a los mejores precios:</h4>
+            °Selecciona a medida tus neumáticos para autos y camionetas</br></br>
+            °Elige el mejor lubricante para tu auto</br></br>
+            °Repuestos de carrocería</br></br>
+            °Puedes pagar con cualquier medio de pago</br></br>
+            °Puede realizar su cambio de repuestos en nuestra sucursal
+            </p>
 
 
 
@@ -182,7 +186,7 @@ pleno centro de Santiago.</p></br>
 
         </div>
         <div class="card-action" >
-            </br></br></br></br></br></br></br></br></br><a  href="productos.jsp">Seguir Viendo Productos</a>
+            </br></br></br></br></br></br></br></br></br><a  href="productos.html">Seguir Viendo Productos</a>
         </div>
           
       </div>
@@ -191,24 +195,24 @@ pleno centro de Santiago.</p></br>
 
   
   <!-- carta 3-->
-   <div class="section no-padding"style="margin: 40px;background-color: white">
+   <div class="section no-padding"style="margin-right:  40px;margin-top: 0px;margin-left: 40px;background-color: white">
    
-     <h1 class="card-title grey-text text-darken-4 center">Nosotros </h1>
+     <h1 class="card-title grey-text text-darken-4 center"style="background-color: lightcyan">Nosotros </h1>
       <div class="card horizontal" height="500">
         <div class="card-image">
-          <img  src="images/vasijas.jpeg" fullWidth="false"  object-fit="cover">
+          <img  src="images/serviciosPortada.jpeg" fullWidth="false"  object-fit="cover">
         
         </div>
         <div class="card-content">
-            <p> <h4>Restauración y conservación:</h4>
-            Sillas </br>
-              Boulles</br>
-              Vitrinas</br>
-              Comodas</br>
-              Sofás</br>
-              Mesas</br>
-              Broncería</br>
-              Etc...</p>
+            <p> <h4 class="blue-text accent-4 ">Restauración y conservación:</h4>
+           </br></br>
+              °Cambios de aceite y lubricación</br></br>
+              °Cambios de neumáticos</br></br>
+              °Cuadratura y alineación de frenos</br></br>
+              °Manejo de distintas fugas</br></br>
+              °Chequeo y arreglo de motor</br></br>
+              Y mucho más</br></br>
+              </p>
 
 
 
@@ -216,7 +220,7 @@ pleno centro de Santiago.</p></br>
 
         </div>
         <div class="card-action" >
-            </br></br></br></br></br></br></br></br></br><a  href="productos.jsp">Seguir Viendo Productos</a>
+           </br></br></br></br> </br></br></br></br></br></br></br></br></br><a  href="servicios.html">Seguir Viendo Servicios</a>
         </div>
           
       </div>
