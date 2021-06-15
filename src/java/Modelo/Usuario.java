@@ -11,4 +11,28 @@ package Modelo;
  */
 public class Usuario {
     
+    String idusuario;
+    String pass;
+
+    public String getPass() {
+        return pass;
+    }
+
+    public void setPass(String pass) {
+        this.pass = pass;
+    }
+
+    public String getIdusuario() {
+        return idusuario;
+    }
+
+    public void setIdusuario(String idusuario) {
+        this.idusuario = idusuario;
+    }
+    
+    public String toString_(){
+        return "Usuario Logueado: " + idusuario;
+    }
+    
+    
 }
