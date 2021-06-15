@@ -46,8 +46,15 @@ public class UsuarioControl extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+       
         
-        String action=request.getParameter("accion");
+    }
+
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        
+         String action=request.getParameter("accion");
         int iniciamos = 0;
         String acceso="";
         
@@ -68,12 +75,6 @@ public class UsuarioControl extends HttpServlet {
         }
         RequestDispatcher vista=request.getRequestDispatcher(acceso);
         vista.forward(request, response);
-    }
-
-    @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
-        processRequest(request, response);
     }
 
     @Override

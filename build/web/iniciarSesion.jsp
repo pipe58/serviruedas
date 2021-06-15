@@ -49,7 +49,7 @@
 			</h3>
 			<div class="row">
 				<div class="col-md-12">
-					<form role="form" action="UsuarioControl" >
+                                    <form role="form" action="UsuarioControl" method="POST">
 						<div class="form-group">							 
                                                     <label for="TextoUsuario">Usuario</label>
                                                     <input type="text" class="form-control" id="txtUsuario" />
