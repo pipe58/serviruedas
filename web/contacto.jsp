@@ -10,7 +10,7 @@
 <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
 <html>
    
-    <head>
+     <head>
         <!--Import Google Icon Font-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
@@ -23,8 +23,28 @@
         <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
+      
+<div class="section no-padding">
+    <div style="background-image:url('images/Grupo 6.png');height: 140px"><span class="flow-text"></span></div></div>      
       <!-- nav de menu-->
-      <ul id = "dropdown2" class = "dropdown-content" >
+      <!-- Dropdown Structure1 -->
+<ul id="11" class="dropdown-content">
+  <li><a href="#!">one</a></li>
+  <li><a href="#!">two</a></li>
+  <li class="divider"></li>
+  <li><a href="#!">three</a></li>
+</ul>
+      <!-- Dropdown Structure2 -->
+<ul id="dropdown1" class="dropdown-content">
+  <li><a href="#!">one</a></li>
+  <li><a href="#!">two</a></li>
+  <li class="divider"></li>
+  <li><a href="#!">three</a></li>
+</ul>  
+      
+   
+     
+    <ul id = "dropdown2" class = "dropdown-content" >
          <li><a href = "servicios.jsp">Cambios de aceite<span class = "badge"></span></a></li>
            <li class = "divider"></li>
          <li><a href = "servicios.jsp">Cambios de ruedas<span class = "badge"></span></a></li>
@@ -66,6 +86,12 @@
       </ul>
     
     </div>
+          </div>
+       </nav>
+       
+       
+       
+       
           </div>
        </nav> <div class="section "  style="background-image:url('images/f1.png')"></br></br></br></br></br>
        <!-- inicio parallax-->

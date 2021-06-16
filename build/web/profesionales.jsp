@@ -7,10 +7,14 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
 <meta charset="UTF-8">
 <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
 <html>
-   
     <head>
         <!--Import Google Icon Font-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -24,8 +28,28 @@
         <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
+      
+<div class="section no-padding">
+    <div style="background-image:url('images/Grupo 6.png');height: 140px"><span class="flow-text"></span></div></div>      
       <!-- nav de menu-->
-      <ul id = "dropdown2" class = "dropdown-content" >
+      <!-- Dropdown Structure1 -->
+<ul id="11" class="dropdown-content">
+  <li><a href="#!">one</a></li>
+  <li><a href="#!">two</a></li>
+  <li class="divider"></li>
+  <li><a href="#!">three</a></li>
+</ul>
+      <!-- Dropdown Structure2 -->
+<ul id="dropdown1" class="dropdown-content">
+  <li><a href="#!">one</a></li>
+  <li><a href="#!">two</a></li>
+  <li class="divider"></li>
+  <li><a href="#!">three</a></li>
+</ul>  
+      
+   
+     
+    <ul id = "dropdown2" class = "dropdown-content" >
          <li><a href = "servicios.jsp">Cambios de aceite<span class = "badge"></span></a></li>
            <li class = "divider"></li>
          <li><a href = "servicios.jsp">Cambios de ruedas<span class = "badge"></span></a></li>
@@ -68,17 +92,121 @@
     
     </div>
           </div>
-       </nav>
-     
-           
+       </nav></br>
        
-   <!--footer-->
-    <footer class="page-footer deep-purple darken-4">
+       <!--inicio menu profuctos -->
+<div class="section "  style="background-image:url('images/f1.png')">
+       <div class="row">
+       <div class="section" style="margin-left: 6px;">
+      <div class="col s5 push-s7  ">    
+          <h5 style="color: red" ><span class="mark background: white"> &nbsp;&nbsp;&nbsp;&nbsp;  Personal operativo &nbsp;&nbsp;&nbsp;&nbsp; </span></h5>
+    <a >
+         <div class="row">
+    <div class="col s12 m12">
+      <div class="card-panel teal" style="height: 455px;">
+          <span class="white-text"><h2 class="yellow-text accent-4 "style="font-size: 24px;font-weight: bolder">Profesionales capacitados y titulados.</h2>
+               <h4 class="red-text bold"style="font-size: 18px;font-weight: bolder "   >°MECÁNICOS</h4>
+Personal con alta experiencia en el rubro, tanto en reparaciones estéticas como en la detección de problemas mecánicos y eléctricos. Además de alta capacidad de iniciativas, trabajo organizativo y capacidad de trabajar bajo presión.</br>
+            
+              <h4 class="red-text bold"style="font-size: 18px;font-weight: bolder "   >°CRISTIAN QUERALT AVILA </h4>
+              <h4 class="red-text bold"style="font-size: 18px;font-weight: bolder "   >°MOHAMED HUESO HERRADOR </h4>
+              <h4 class="red-text bold"style="font-size: 18px;font-weight: bolder "   >°JOSE FRANCISCO BAUTISTA MARCO </h4>
+              <h4 class="red-text bold"style="font-size: 18px;font-weight: bolder "   >°GUILLERMO PINTADO BUSTOS </h4>
+              
+        </span>
+      </div>
+    </div>
+  </div>
+            
+    </a>
+      </div>
+           <div class="col s7 pull-s5">    
+               <span class="mark background: white" style="font-size: 25px;">Mecánico</span></br></br>
+    <a ><img src="images/mecanico05.jpg" style="width:857px"></a> 
+      </div>
+       </div>
+            </div>
+       
+   <div class="divider"></div>
+     <div class="row">
+       <div class="section" style="margin-left: 6px;">
+  <div class="col s5 push-s7  ">    
+          <h5 style="color: red" ><span class="mark background: white"> &nbsp;&nbsp;&nbsp;&nbsp;  Personal Administrativo &nbsp;&nbsp;&nbsp;&nbsp; </span></h5>
+    <a >
+         <div class="row">
+    <div class="col s12 m12">
+      <div class="card-panel teal" style="height: 455px;">
+          <h4 class="yellow-text accent-4 "style="font-size: 24px; font-weight: bolder"   >Alta capacidad de atención y solución de problemas.</h4>
+          <h4 class="red-text accent-4 "style="font-size: 18px; font-weight: bolder"   >°ADMINISTRACIÓN</h4>
+    Personal calificado enfocados en solucionar problemas y atención eficaz y expedita, con alta capacidad de trabajo organizativo y cuyo objetivo principal es mejorar la atención de los clientes.</br>
+    
+    <h4 class="red-text bold"style="font-size: 18px;font-weight: bolder "   >°CAROLINA GUIRADO HENRIQUEZ </h4>
+    <h4 class="red-text bold"style="font-size: 18px;font-weight: bolder "   >°EMILIA SANMARTIN RENDON </h4>
+    
+    
+    <h4 class="red-text accent-4 "style="font-size: 18px; font-weight: bolder"   >°CONTABILIDAD</h4>
+    Personal titulado con altos conocimientos en el área contable, que se dedica a mantener los registros actualizados he informar a la organización el estado actual financiero y tributario de la empresa.</br>
+    
+    <h4 class="red-text bold"style="font-size: 18px;font-weight: bolder "   >°MARIA CONCEPCION TENORIO ORGAZ </h4>
+    <h4 class="red-text bold"style="font-size: 18px;font-weight: bolder "   >°ESTHER LABORDA GARZON </h4>
+    
+    
+      
+    
+    
+      </div>
+    </div>
+  </div>
+            
+    </a>
+      </div>
+           <div class="col s7 pull-s5">    
+               <span class="mark background: white" style="font-size: 25px;">Administrativos</span></br></br>
+               <a ><img src="images/portada maquina de escribir.jpg" style="width: 860px"></a> 
+      </div>
+       </div>
+            </div>
+   <div class="divider"></div>
+     <div class="row">
+       <div class="section" style="margin-left: 6px;">
+  <div class="col s5 push-s7  ">    
+          <h5 style="color: red" ><span class="mark background: white"> &nbsp;&nbsp;&nbsp;&nbsp;  GERENCIA &nbsp;&nbsp;&nbsp;&nbsp; </span></h5>
+    <a >
+         <div class="row">
+    <div class="col s12 m12">
+      <div class="card-panel teal" style="height: 455px;">
+                 <h4 class="yellow-text accent-4 "style="font-size: 24px; font-weight: bolder"   >
+                     Orientado al cumplimiento de metas.</h4>
+                         <h4 class="red-text bold"style="font-size: 18px;font-weight: bolder "   >°GERENTE</h4>
+                         
+               Gerente con muchos años en el rubro automotriz, con distintas expecialidades en el area y cuyo enfoque es generar un servicio rapido y de calidad.</br>
+            
+               
+               <h4 class="red-text bold"style="font-size: 18px;font-weight: bolder "   >°EDUARDO ABELLA PALACIN </h4>
+               
+
+
+      </div>
+    </div>
+  </div>
+            
+    </a>
+      </div>
+           <div class="col s7 pull-s5">    
+               <span class="mark background: white" style="font-size: 25px;">GERENCIA</span></br></br>
+               <a ><img src="images/viejo.jpg" style="width: 850px;height: 460px;"></a> 
+      </div>
+       </div>
+            </div></br></br></br></br></br></br></br></br></br></br></br></br>
+      
+      
+      <!--footer-->
+                <footer class="page-footer deep-purple darken-4">
           <div class="container">
             <div class="row">
               <div class="col l2 m8 l4">
                 <h5 class="white-text"></h5>
-                <a href="index.jsp"><img  src="images/logo.png" width="300"></a>
+                <a href="index.html"><img  src="images/iconos/logo.png" width="250"></a>
               </div>
                  <div class="col 12 m8 l4">
                      <h4 class="white-text">Horarios</h4></br>
@@ -93,7 +221,7 @@
                 <h4 class="white-text">Contacto   </h4>
                 <ul>
                     <li><a href="https://goo.gl/maps/3XYtHnsoJgBDXEiJ6"><img src="images/iconos/googleMap.png" width="100" ></a></li>
-                    <li>Redes sociales</a</li>
+                    <li>Redes sociales</li>
                     <li><a  href="https://www.facebook.com"><img src="images/iconos/face.png" width="40"></a>
                     <a  href="https://www.instagram.com"><img src="images/iconos/insta.png" width="40"></a>
                     <a  href="https://www.youtube.com"><img src="images/iconos/utube.png" width="40"></a></li>
@@ -105,23 +233,15 @@
           </div>
           <div class="footer-copyright">
             <div class="container">
-            © 2021 Todos Los Derechos Reservados
+            © 2020 Todos Los Derechos Reservados
             <a class="grey-text text-lighten-4 right" href="<a href='https://pngtree.com/so/social-icons'>social-icons png from pngtree.com</a>">fuente de iconos aqui</a>
             </div>
           </div>
-        </footer>
-   </br></br></br></br></br</br></br></br></br></br></br></br></br></br></br></br</br></br></br></br></br></br>
-    </div>
-            
-           
-         
+        </footer></br></br></br></br></br></br></br></br></br>
         
-       
-       
-       
-        <script>  $('.tap-target').tapTarget('open');
-                     $('.tap-target').tapTarget('close');</script>
-<script>
+</div>
+      
+        <script>
    
       $(document).ready(function(){
       $('.carousel').carousel();
