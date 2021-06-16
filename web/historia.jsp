@@ -71,8 +71,8 @@
          </div></br></br></br>
          
          <div class="section center" >
-             <span class="red-text accent-4 centered" style=" background: white;font-size: 45px">Antiguedades Millaray, rescatando el patrimonio, memorias e historia </br>
-                 desde 1887
+             <span class="red-text accent-4 centered" style=" background: white;font-size: 45px"En taller ServiRuedas encontrará los mejores Profesionales y Productos</br>
+               al precio justo!
              </span>
              
          </div></br></br></br></br></br></br></br></br></br></br></br>
