@@ -24,10 +24,28 @@
         <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
-      <link href="bs4.0/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-      <script src="bs4.0/js/bootstrap.min.js" type="text/javascript"></script>
+      
+<div class="section no-padding">
+    <div style="background-image:url('images/Grupo 6.png');height: 140px"><span class="flow-text"></span></div></div>      
       <!-- nav de menu-->
-      <ul id = "dropdown2" class = "dropdown-content" >
+      <!-- Dropdown Structure1 -->
+<ul id="11" class="dropdown-content">
+  <li><a href="#!">one</a></li>
+  <li><a href="#!">two</a></li>
+  <li class="divider"></li>
+  <li><a href="#!">three</a></li>
+</ul>
+      <!-- Dropdown Structure2 -->
+<ul id="dropdown1" class="dropdown-content">
+  <li><a href="#!">one</a></li>
+  <li><a href="#!">two</a></li>
+  <li class="divider"></li>
+  <li><a href="#!">three</a></li>
+</ul>  
+      
+   
+     
+    <ul id = "dropdown2" class = "dropdown-content" >
          <li><a href = "servicios.jsp">Cambios de aceite<span class = "badge"></span></a></li>
            <li class = "divider"></li>
          <li><a href = "servicios.jsp">Cambios de ruedas<span class = "badge"></span></a></li>
@@ -65,43 +83,86 @@
               <li class="right"><a href="contacto.jsp">Contacto</a></li>
               
               
-              <li class="right"><a href="historia.html">Nosotros</a></li>
+              <li class="right"><a href="historia.jsp">Nosotros</a></li>
       </ul>
     
     </div>
           </div>
        </nav>
+      </br>
        
-       <div class="container-fluid">
-	<div class="row">
-		<div class="col-md-4">
-		</div>
-		<div class="col-md-4">
-			<h3 class="text-center">
-				Iniciar Sesión
-			</h3>
-			<div class="row">
-				<div class="col-md-12">
-                                    <form role="form" action="UsuarioControl" method="POST" >
-						<div class="form-group">							 
-                                                    <label for="TextoUsuario">Usuario</label>
-                                                    <input type="text" class="form-control" name="txtUsuario" id="txtUsuario" />
-						</div>
-						<div class="form-group">							 
-                                                    <label for="TextoPass">Password</label>
-                                                    <input type="password" class="form-control" name="txtPass" id="txtPass" />
-						</div>
-						<div class="form-group">							
-						</div>
-						<button type="submit" class="btn btn-info" name="accion" value="IniciarSesion">Autenticar</button>
-					</form>
-				</div>
+       
+
+       <div class="container" >
+           <div class="d-flex justify-content-center h-100">
+        <div class="container-fluid" >           
+             <div class="row">
+                 <div class="col-md-4">
+                 </div>
+                 <div class="col-md-4">
+                         <h3 class="text-center">
+                                 Iniciar Sesión
+                         </h3>
+                         <div class="row">
+                                 <div class="col-md-12">
+                                     <form role="form" action="UsuarioControl" method="POST" >
+                                                 <div class="form-group">							 
+                                                     <label for="TextoUsuario">Usuario</label>
+                                                     <input type="text" class="form-control" name="txtUsuario" id="txtUsuario" />
+                                                 </div>
+                                                 <div class="form-group">							 
+                                                     <label for="TextoPass">Password</label>
+                                                     <input type="password" class="form-control" name="txtPass" id="txtPass" />
+                                                 </div>
+                                                 <div class="form-group">							
+                                                 </div>
+                                                 <button type="submit" class="btn float-right login_btn" name="accion" value="IniciarSesion">Login</button>
+                                         </form>
+                                 </div>
+                         </div>
+                 </div>
+                 <div class="col-md-4">
+                 </div>
+             </div>
+         </div>
+        </div>
+      </div>
+       
+       <!--div class="container">
+	<div class="d-flex justify-content-center h-100">
+		<div class="card">
+			<div class="card-header"> <h3>Iniciar sesión</h3> </div>
+			<div class="card-body">
+				<form role="form" action="UsuarioControl" method="POST" >
+                                    <div class="input-group form-group">
+                                            <div class="input-group-prepend"> <!--span class="input-group-text"><i class="fas fa-user"></i></span> 						</div>
+                                            <input type="text" class="form-control" placeholder="Nombre Usuario" name="txtUsuario">
+                                        </div>
+                                    <div class="input-group form-group">
+                                            <div class="input-group-prepend"> 
+                                                <span class="input-group-text"><i class="fas fa-key"></i></span> 
+                                            </div>
+                                            <input type="password" class="form-control" placeholder="contraseña" name="txtPass" >
+                                    </div>
+                                    <div class="row align-items-center remember"> 
+                                        <input type="checkbox">Recordarme  
+                                    </div>
+                                    <div class="form-group"> 
+                                        <input type="submit" value="Login" class="btn float-right login_btn">
+                                    </div>
+				</form>
 			</div>
-		</div>
-		<div class="col-md-4">
+			<div class="card-footer">
+				<div class="d-flex justify-content-center links">
+					¿no tiene cuenta?<a href="#">Registrarse</a>
+				</div>
+				<div class="d-flex justify-content-center">
+					<a href="#">¿olvidaste tu contraseña?</a>
+				</div>
+			</di>
 		</div>
 	</div>
-</div>
+    </div-->
 
        
   </br></br></br></br></br>  <!--footer-->

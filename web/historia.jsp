@@ -58,7 +58,7 @@
               <li class="right"><a href="contacto.jsp">Contacto</a></li>
               
               
-              <li class="right"><a href="historia.html">Nosotros</a></li>
+              <li class="right"><a href="historia.jsp">Nosotros</a></li>
       </ul>
     
     </div>

@@ -85,6 +85,21 @@
         </footer></br>  
         <script>  $('.tap-target').tapTarget('open');
                      $('.tap-target').tapTarget('close');</script>
+<script>
+   
+      $(document).ready(function(){
+      $('.carousel').carousel();
+    });
+        $('.carousel.carousel-slider').carousel({fullWidth: true});
+        //dropdown
+         $('.dropdown-trigger').dropdown();
+autoplay();
+function autoplay() {
+    $('.carousel').carousel('next');
+    setTimeout(autoplay, 4500);
+}
+        </script>
+
         
     </body>
 </html>

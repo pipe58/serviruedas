@@ -23,6 +23,8 @@ public class UsuarioControl extends HttpServlet {
 
     String index="index.jsp";
     String iniciarSesion="iniciarSesion.jsp";
+    String login="final.jsp";
+
     Usuario u=new Usuario();
     UsuarioDAO dao=new UsuarioDAO();
     
@@ -69,8 +71,8 @@ public class UsuarioControl extends HttpServlet {
                 acceso=index;   
             }else{
                 System.out.println("No existe Registro?");
-                acceso=iniciarSesion;
-                acceso=index;  
+                acceso=login;
+                //acceso=index;  
             }
         }
         RequestDispatcher vista=request.getRequestDispatcher(acceso);

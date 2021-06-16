@@ -83,7 +83,7 @@
               <li class="right"><a href="contacto.jsp">Contacto</a></li>
               
               
-              <li class="right"><a href="historia.html">Nosotros</a></li>
+              <li class="right"><a href="historia.jsp">Nosotros</a></li>
       </ul>
     
     </div>
@@ -156,7 +156,7 @@ ajustadores mecánicos y caldereros, todos ellos con una formación y una experi
 
         </div>
         <div class="card-action" >
-            </br></br></br></br></br></br></br></br></br><a  href="historia.html">seguir leyendo</a>
+            </br></br></br></br></br></br></br></br></br><a  href="historia.jsp">seguir leyendo</a>
         </div>
       </div>
     </div>
@@ -186,7 +186,7 @@ ajustadores mecánicos y caldereros, todos ellos con una formación y una experi
 
         </div>
         <div class="card-action" >
-            </br></br></br></br></br></br></br></br></br><a  href="productos.html">Seguir Viendo Productos</a>
+            </br></br></br></br></br></br></br></br></br><a  href="productos.jsp">Seguir Viendo Productos</a>
         </div>
           
       </div>
@@ -220,7 +220,7 @@ ajustadores mecánicos y caldereros, todos ellos con una formación y una experi
 
         </div>
         <div class="card-action" >
-           </br></br></br></br> </br></br></br></br></br></br></br></br></br><a  href="servicios.html">Seguir Viendo Servicios</a>
+           </br></br></br></br> </br></br></br></br></br></br></br></br></br><a  href="servicios.jsp">Seguir Viendo Servicios</a>
         </div>
           
       </div>

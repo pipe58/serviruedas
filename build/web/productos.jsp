@@ -22,35 +22,71 @@
           <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
       <!-- nav de menu-->
-       <nav>
-    <div class="nav-wrapper yellow darken-4">
-      <a href="indexjsp" class="brand-logo">ServiRuedas</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="productos.jsp">Productos</a></li>
-        <li><a href="historia.jsp">Historia</a></li>
-        <li><a href="contacto.jsp">Contacto</a></li>
+        <ul id = "dropdown2" class = "dropdown-content" >
+         <li><a href = "servicios.jsp">Cambios de aceite<span class = "badge"></span></a></li>
+           <li class = "divider"></li>
+         <li><a href = "servicios.jsp">Cambios de ruedas<span class = "badge"></span></a></li>
+           <li class = "divider"></li>
+         <li><a href = "servicios.jsp">Manejo de fugas</a></li>
+         <li class = "divider"></li>
+         <li><a href = "servicios.jsp">Arreglo de motor<span class = "badge"></span></a></li>
       </ul>
+          <ul id = "dropdown" class = "dropdown-content" >
+         <li><a href = "productos.jsp">Ruedas<span class = "badge"></span></a></li>
+           <li class = "divider"></li>
+         <li><a href = "productos.jsp">Motor<span class = "new badge"></span></a></li>
+           <li class = "divider"></li>
+         <li><a href = "productos.jsp">Frenos</a></li>
+         <li class = "divider"></li>
+         <li><a href = "productos.jsp">Y mucho más<span class = "badge"></span></a></li>
+      </ul>
+
+
+       <!--inicio menu-->
+      <nav> 
+          <div class="nav-wrapper  pink darken-4 "  >
+          <div class="row">
+
+      <a href="index.jsp" class="brand-logo">Taller ServiRuedas</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down col s9">
+        <li><a class="dropdown-trigger"  data-activates="dropdown">Repuestos<i class="material-icons right">arrow_drop_down</i></a></li>
+       <!-- Dropdown Trigger -->
+      <li><a class="dropdown-trigger"  data-activates="dropdown2">Servicios<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a href="profesionales.jsp">Profesionales</a></li>
+        <li><a class="no-select">     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a></li>
+            <li  class="right"><a href="iniciarSesion.jsp">Iniciar Sesión</a></li>
+              <li class="right"><a href="contacto.jsp">Contacto</a></li>
+
+
+              <li class="right"><a href="historia.jsp">Nosotros</a></li>
+      </ul>
+
     </div>
-       </nav></br>
+          </div>
+       </nav>
        
-       <!--inicio menu profuctos -->
-       
+           <!--inicio menu profuctos -->
+<div class="section "  style="background-image:url('images/f1.png')">
        <div class="row">
        <div class="section" style="margin-left: 6px;">
       <div class="col s5 push-s7  ">    
-          <h5 style="color: red">Historia</h5>
+          <h5 style="color: red" ><span class="mark background: white"> &nbsp;&nbsp;&nbsp;&nbsp;  Repuestos &nbsp;&nbsp;&nbsp;&nbsp; </span></h5>
     <a >
          <div class="row">
     <div class="col s12 m12">
       <div class="card-panel teal" style="height: 455px;">
-          <span class="white-text">Radiofono antiguo con altavoz de cuerno de oro y
-              a perillas.</br>
-              Esta radio era utilizada en el siglo XIX solo por personas adineradas.</br>
-              Por su composicion y densidad idealmente se dejaban en muebles y estantes grandes.</br></br>
-              Color : bronce</br></br></br>
-              Restauración : sí</br></br></br>
-              Antiguedad : 100 años</br></br></br></br>
-              
+          <span class="white-text"><h2 class="yellow-text accent-4 "style="font-size: 24px;font-weight: bolder">RUEDAS DE DIFERENTES TAMAÑOS, CLASES Y MARCAS.</h2>
+               <h4 class="yellow-text bold"style="font-size: 18px;font-weight: bolder "   >°LLANTAS RADIALES</h4>
+Esta clase de neumáticos de gran precisión son los más comunes hoy en día. En términos de anatomía, las cuerdas
+de las capas corren de ceja a ceja formando semi-óvalos, y sobre su contorno, se coloca un cinturón de acero.</br>
+            <h4 class="yellow-text accent-4 "style="font-size: 18px;font-weight: bolder"   >°LLANTAS RADIALES ECONOMIZADORAS DE COMBUSTIBLE</h4>
+              En los últimos años, este tipo de neumáticos han ganado cada vez más popularidad. Cuentan con una tecnología capaz de ofrecer menor resistencia 
+              durante el rodado, lo cual disminuye drásticamente su consumo de energía.</br>
+              <h4 class="yellow-text accent-4 "style="font-size: 18px; font-weight: bolder"   >°LLANTAS DE ALTO DESEMPEÑO Y PARA TODA ESTACIÓN</h4>
+              Estos neumáticos, además de brindar una conducción muy precisa y máxima adherencia, soportan altas temperaturas y velocidades. Ideales para la autopista,
+              ofrecen un óptimo desempeño sobre superficies secas o mojadas.
               
               
         </span>
@@ -61,8 +97,8 @@
     </a>
       </div>
            <div class="col s7 pull-s5">    
-    <h5>Radio</h5>
-    <a ><img src="images/radio chica.jpg" style="width: 700px"></a> 
+               <span class="mark background: white" style="font-size: 25px;">Ruedas</span></br></br>
+    <a ><img src="images/nuevaRuedas.jpg" style="width:857px"></a> 
       </div>
        </div>
             </div>
@@ -71,24 +107,21 @@
      <div class="row">
        <div class="section" style="margin-left: 6px;">
   <div class="col s5 push-s7  ">    
-          <h5 style="color: red">Historia</h5>
+          <h5 style="color: red" ><span class="mark background: white"> &nbsp;&nbsp;&nbsp;&nbsp;  Repuestos &nbsp;&nbsp;&nbsp;&nbsp; </span></h5>
     <a >
          <div class="row">
     <div class="col s12 m12">
       <div class="card-panel teal" style="height: 455px;">
-          <span class="white-text"> PAREJA DE JARRONES ALEMANES WMF</br>
-              estilo Art Noveau. Representa mujeres con niñas recogiendo flores.</br></br>
+          <h4 class="yellow-text accent-4 "style="font-size: 24px; font-weight: bolder"   >REPUESTOS DE CARROCERÍAS DE DIFERENTES MARCAS</h4>
+          <h4 class="white-text accent-4 "style="font-size: 18px; font-weight: bolder"   >°Chevrolet</h4>
+    <h4 class="white-text accent-4 "style="font-size: 18px; font-weight: bolder"   >°Fiat</h4>
+    <h4 class="white-text accent-4 "style="font-size: 18px; font-weight: bolder"   >°Hyundai</h4>
+        <h4 class="white-text accent-4 "style="font-size: 18px; font-weight: bolder"   >°jeep</h4>
+            <h4 class="white-text accent-4 "style="font-size: 18px; font-weight: bolder"   >°Toyota</h4>
+                <h4 class="white-text accent-4 "style="font-size: 18px; font-weight: bolder"   >°Audi</h4>
+                    <h4 class="white-text accent-4 "style="font-size: 18px; font-weight: bolder"   >°Mitsubishi</h4>
+                    <h4 class="white-text accent-4 "style="font-size: 18px; font-weight: bolder"   >Y muchos más</h4>
 
-
-Medidas</br></br>
-
-Alto 70 cm</br></br>
-
-Ancho 26 cm</br></br>
-
-Profundidad 28 </br></br>
-antiguedad : 100+ años
-        </span>
       </div>
     </div>
   </div>
@@ -96,43 +129,41 @@ antiguedad : 100+ años
     </a>
       </div>
            <div class="col s7 pull-s5">    
-    <h5>Jarrones</h5>
-    <a ><img src="images/jarrones.jpg" style="width: 360px"></a> 
+               <span class="mark background: white" style="font-size: 25px;">Carroceria</span></br></br>
+               <a ><img src="images/nuevaRepuestos.jpg" style="width: 860px"></a> 
       </div>
        </div>
-            </div>
-   <div class="divider"></div>
-     <div class="row">
-       <div class="section" style="margin-left: 6px;">
-  <div class="col s5 push-s7  ">    
-          <h5 style="color: red">Historia</h5>
-    <a >
+                </div>
+       <div class="divider"></div>
          <div class="row">
-    <div class="col s12 m12">
-      <div class="card-panel teal" style="height: 455px;">
-        <span class="white-text">Esta rara jarra de osos de peluche de los Roosevelt Bears </br>
-            representa múltiples escenas de varios osos entreteniéndose.</br>
-            El lanzador está en buenas condiciones. Firmado en la parte inferior</br>
-            "Buffalo 1907 Cerámica Copyright Edward Stern and Company". Buffalo Pottery comenzó en 1903</br>
-            cuando Larkin Soap Company de Buffalo, Nueva York, decidió hacer cerámica</br>
-            y porcelana para recompensar a sus clientes por comprar jabón por correo. </br>
-            La empresa había hecho otros obsequios con compras antes de regalar cerámica. </br>
-            Su primera incursión en la cerámica y la porcelana fue la fabricación de juegos de vajilla</br>
-            semivítreos. Buffalo hizo líneas de cerámica conmemorativas e históricas, como los Roosevelt Bears. </br>
-        
-        </span>
+           <div class="section" style="margin-left: 6px;">
+      <div class="col s5 push-s7  ">    
+              <h5 style="color: red" ><span class="mark background: white"> &nbsp;&nbsp;&nbsp;&nbsp;  Repuestos &nbsp;&nbsp;&nbsp;&nbsp; </span></h5>
+        <a >
+             <div class="row">
+        <div class="col s12 m12">
+          <div class="card-panel teal" style="height: 455px;">
+                     <h4 class="yellow-text accent-4 "style="font-size: 24px; font-weight: bolder"   >
+                         REPUESTOS DE MOTOR DE DIFERENTES MARCAS</h4>
+                               <h4 class="white-text bold"style="font-size: 18px;font-weight: bolder "   >°LLAVES DE PASO</h4>
+                   <h4 class="white-text bold"style="font-size: 18px;font-weight: bolder "   >°CILINDROS</h4>
+                    <h4 class="white-text bold"style="font-size: 18px;font-weight: bolder "   >°PISTONES</h4>
+                    <h4 class="white-text bold"style="font-size: 18px;font-weight: bolder "   >°CARBURADORES</h4>
+                     <h4 class="white-text bold"style="font-size: 18px;font-weight: bolder "   >°Y MUCHO MÁS EN MARCAS ASOCIADAS...</h4>
+
+
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-            
-    </a>
-      </div>
-           <div class="col s7 pull-s5">    
-    <h5>Taza</h5>
-    <a ><img src="images/taza.png" style="width: 400px"></a> 
-      </div>
-       </div>
-            </div>
+
+        </a>
+          </div>
+               <div class="col s7 pull-s5">    
+                   <span class="mark background: white" style="font-size: 25px;">Motor</span></br></br>
+                   <a ><img src="images/nuevaMotor.jpg" style="width: 850px;height: 460px;"></a> 
+          </div>
+           </div>
+                </div></br></br></br></br></br></br></br></br></br></br></br></br>
       
       
       <!--footer-->
@@ -173,7 +204,20 @@ antiguedad : 100+ años
             </div>
           </div>
         </footer></br>
-      
+      <script>
+   
+      $(document).ready(function(){
+      $('.carousel').carousel();
+    });
+        $('.carousel.carousel-slider').carousel({fullWidth: true});
+        //dropdown
+         $('.dropdown-trigger').dropdown();
+autoplay();
+function autoplay() {
+    $('.carousel').carousel('next');
+    setTimeout(autoplay, 4500);
+}
+        </script>
     </body>
 </html>
 
