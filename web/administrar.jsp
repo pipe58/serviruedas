@@ -1,16 +1,16 @@
-<%-- 
-    Document   : final
-    Created on : 14-06-2021, 23:12:18
-    Author     : Fractal
---%>
-
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<meta charset="UTF-8">
-<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
 <html>
+       <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <head>
-        <!--Import Google Icon Font-->
+        <title>Administrar</title>
+     
+          <!--Import Google Icon Font-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
@@ -22,10 +22,7 @@
         <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
-      
-<div class="section no-padding">
-    <div style="background-image:url('images/Grupo 6.png');height: 140px"><span class="flow-text"></span></div></div>      
-      <!-- nav de menu-->
+           <!-- nav de menu-->
   <div class="section no-padding">
     <div style="background-image:url('images/Grupo 6.png');height: 140px"><span class="flow-text"></span></div></div>      
       <!-- nav de menu-->
@@ -92,27 +89,67 @@
     
     </div>
           </div>
-       </nav></br></br></br></br></br>
-       
-       <h4 style="margin :10px;">“Datos ingresados correctamente. Lo contactaremos”. </h4>
-       <h4 style="margin-left: 2rem; font-size: 1.1rem;">Vuelva a revisar nuestro sitio</h4>
-       <div class="row">
-             <div class="input-field col s12">
-                 <a href="index.jsp"   <button class="btn waves-effect waves-light " type="submit" name="action" href="final.jsp" >Volver
-                 </a> <i class="material-icons right">send</i>
-  </button>
-                   
-             </div></div></br></br></br></br>      
-  
+       </nav>
+        
+        
+        
+         <div class="section "  style="background-image:url('images/f1.png')"></br></br></br></br></br>
+        
+             <div class="container" style="background: #26a69a "  >
+             <table class="white-text" >
+        <thead style="margin: 10px">
+          <tr style="margin: 10px">
+              <th style="font-size: 30px;font: ">¿Qué trámite desea hacer?</th>
+              <th></th>
+              <th></th>
+          </tr>
+        </thead>
+             
+        <tbody>
+          <tr>
+              <td style="font-size: 26px">Descargar Boleta de Pago</td>
+            <td></td>
+            <td><a class="btn-floating btn-large pulse black"><i class="material-icons">arrow_downward</i></a></td>
+          </tr>
+          <tr>
+            <td style="font-size: 26px">Ver Stock</td>
+            <td></td>
+            <td><a class="btn-floating btn-large pulse red"><i class="material-icons">arrow_downward</i></a></td>
+          </tr>
+          <tr>
+            <td style="font-size: 26px">Agregar una petición</td>
+            <td></td>
+            <td><a class="btn-floating btn-large pulse yellow"><i class="material-icons ">arrow_downward</i></a></td>
+          </tr>
+        </tbody>
+      </table>
+             
+             </div></br></br></br></br></br></br></br></br></br></br>
              
              
-   <!--footer-->
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+        
+        
+        <!--footer-->
                 <footer class="page-footer deep-purple darken-4">
           <div class="container">
             <div class="row">
               <div class="col l2 m8 l4">
                 <h5 class="white-text"></h5>
-                <a href="index.jsp"><img  src="images/logo.png" width="300"></a>
+                <a href="index.html"><img  src="images/iconos/logo.png" width="250"></a>
               </div>
                  <div class="col 12 m8 l4">
                      <h4 class="white-text">Horarios</h4></br>
@@ -143,29 +180,7 @@
             <a class="grey-text text-lighten-4 right" href="<a href='https://pngtree.com/so/social-icons'>social-icons png from pngtree.com</a>">fuente de iconos aqui</a>
             </div>
           </div>
-        </footer>
-   </br></br></br></br></br</br></br></br></br></br></br></br></br></br></br></br</br></br></br></br></br></br>
-    </div>
-        
-             
-             
-        <script>  $('.tap-target').tapTarget('open');
-                     $('.tap-target').tapTarget('close');</script>
-<script>
-   
-      $(document).ready(function(){
-      $('.carousel').carousel();
-    });
-        $('.carousel.carousel-slider').carousel({fullWidth: true});
-        //dropdown
-         $('.dropdown-trigger').dropdown();
-autoplay();
-function autoplay() {
-    $('.carousel').carousel('next');
-    setTimeout(autoplay, 4500);
-}
-        </script>
-
-        
+        </footer></br></br></br></br></br></br>
+  </div>
     </body>
 </html>
