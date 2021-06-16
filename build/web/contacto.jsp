@@ -79,22 +79,22 @@
       <div class="collapsible-header red lighten-3"><i class="material-icons">format_list_numbered</i>Formulario</div>
       <div class="collapsible-body">
           <div class="row">
-    <form class="col s12 validate">
+    <form class="col s12 validate" action="correo" method="POST" >
       <div class="row">
   
       <div class="input-field col s12">
-        <input id="nombre" type="text" class="validate" required="" aria-required="true">
+        <input id="txtNombre" name="txtNombre" type="text" class="validate" required="" aria-required="true">
         <label for="email2">Nombre</label>
       </div>
       <div class="input-field col s12">
-        <input id="apellido" name="text" type="text" class="validate" required="" aria-required="true">
+        <input id="txtApellido" name="txtApellido" name="text" type="text" class="validate" required="" aria-required="true">
         <label for="example">Apellido</label>
       </div>
      
      
       <div class="row">
         <div class="input-field col s12">
-        <input id="email2" type="email" class="validate" required="" aria-required="true">
+        <input id="txtEmail2" name="txtEmail2" type="email" class="validate" required="" aria-required="true">
         <label for="email2">Email</label>
       </div>
       </div>
@@ -104,7 +104,7 @@
       <div class="row">
         <div class="input-field col s6">
           <i class="material-icons prefix">mode_edit</i>
-          <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+          <textarea id="txtConsulta" name="txtConsulta" class="materialize-textarea"></textarea>
           <label for="icon_prefix2">Consulta</label>
         </div>
       </div>
@@ -112,7 +112,7 @@
   </div>
         <div class="row">
              
-  <button class="btn waves-effect waves-light validate" type="submit" name="validate">Submit
+  <button class="btn waves-effect waves-light validate" type="submit" name="validate" value="Correo">Submit
     <i class="material-icons right">send</i>
   </button>
         </div>

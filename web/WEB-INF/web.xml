@@ -4,9 +4,17 @@
         <servlet-name>UsuarioControl</servlet-name>
         <servlet-class>Controlador.UsuarioControl</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>correo</servlet-name>
+        <servlet-class>Controlador.correo</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>UsuarioControl</servlet-name>
         <url-pattern>/UsuarioControl</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>correo</servlet-name>
+        <url-pattern>/correo</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
