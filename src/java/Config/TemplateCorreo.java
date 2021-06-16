@@ -24,23 +24,23 @@ public class TemplateCorreo {
                 "</head>\n" +
                 "<body style=\"margin: 0; padding: 0;\"> \n" + "\n" +
                     "<table align=\"center\" border=\"1\" cellpadding=\"0\" cellspacing=\"0\" width=\"600\">\n" +"\n" +
-                        "<tr>\n" +
-                            "<td align=\"center\" style=\"padding: 40px 0 30px 0;\">\n" +
-                                latex("ServiRuedas") +
+                        //"<tr>\n" +
+                          //  "<td align=\"center\" bgcolor=\"#993399\" style=\"padding: 40px 0 30px 0;\">\n" +
+                          //      latex("ServiRuedas") +
                                // "<img src=\"images/h1.gif\" alt=\"Creating Email Magic\" width=\"300\" height=\"230\" style=\"display: block;\" />\n" +
-                            "</td>\n" +
-                        "</tr>\n" +
+                          //  "</td>\n" +
+                        //"</tr>\n" +
                         "<tr>\n" +
-                            "<td> Formulario de Contacto </td>\n" +
+                            "<td bgcolor=\"#673ab7\" ><p style=\"color:#FFFFFF\";> Formulario de Contacto </p></td>\n" +
                         "</tr>\n" +
                         "<tr>\n" +
                             "<td style=\"padding: 20px 0 30px 0;\">\n" +  
                                 "</br>" + 
-                                "<p> Nombre:" + nombre + " " + apellido + " </p>" +
+                                "<p> Nombre: " + nombre + " " + apellido + " </p>" +
                                 //"</br>" +                                
                                 "<p> Contacto: " + correo + " </p>" +
                                 //"</br>" +
-                                "<p> Fecha:" + fecha + " </p>" +
+                                "<p> Fecha: " + fecha + " </p>" +
                                 "</br>" +
                                 "<p> Consulta: " + consulta + " </p>" +
                                 "</br>" +
@@ -48,9 +48,7 @@ public class TemplateCorreo {
                             "</td> \n" +
                         "</tr>\n" + "\n" +
                         "<tr>\n" +
-                        "<td bgcolor=\"#ee4c50\" style=\"padding: 30px 30px 30px 30px;\">\n" +
-                            "Serviruedas ® 2021 \n" +
-                        "</td>\n" +
+                        "<td bgcolor=\"#2B2BB6\" style=\"padding: 10px 10px 10px 10px;\"><p style=\"color:#FFFFFF\";> Serviruedas ® 2021</p></td>\n" +
                         "</tr> \n" + "\n" +
                     "</table>\n" +
                 "</body> \n" +
