@@ -262,7 +262,7 @@ ajustadores mecánicos y caldereros, todos ellos con una formación y una experi
           </div>
           <div class="footer-copyright">
             <div class="container">
-            © 2020 Todos Los Derechos Reservados
+            © 2021 Todos Los Derechos Reservados
             <a class="grey-text text-lighten-4 right" href="<a href='https://pngtree.com/so/social-icons'>social-icons png from pngtree.com</a>">fuente de iconos aqui</a>
             </div>
           </div>
@@ -271,16 +271,7 @@ ajustadores mecánicos y caldereros, todos ellos con una formación y una experi
     </div>
         
         
-        
-       
-       
-       
-       
-       
-       
-       
-       
-        
+                
         
        <script>
    $( document ).ready(function(){

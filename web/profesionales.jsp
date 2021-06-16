@@ -71,17 +71,14 @@
        </nav>
      
            
-           
-           
-         
-        
-       <!--footer-->
-                <footer class="page-footer deep-purple darken-4">
+       
+   <!--footer-->
+    <footer class="page-footer deep-purple darken-4">
           <div class="container">
             <div class="row">
               <div class="col l2 m8 l4">
                 <h5 class="white-text"></h5>
-                <a href="index.jsp"><img  src="images/iconos/logo.png" width="250"></a>
+                <a href="index.jsp"><img  src="images/logo.png" width="300"></a>
               </div>
                  <div class="col 12 m8 l4">
                      <h4 class="white-text">Horarios</h4></br>
@@ -96,7 +93,7 @@
                 <h4 class="white-text">Contacto   </h4>
                 <ul>
                     <li><a href="https://goo.gl/maps/3XYtHnsoJgBDXEiJ6"><img src="images/iconos/googleMap.png" width="100" ></a></li>
-                    <li>Redes sociales</li>
+                    <li>Redes sociales</a</li>
                     <li><a  href="https://www.facebook.com"><img src="images/iconos/face.png" width="40"></a>
                     <a  href="https://www.instagram.com"><img src="images/iconos/insta.png" width="40"></a>
                     <a  href="https://www.youtube.com"><img src="images/iconos/utube.png" width="40"></a></li>
@@ -108,11 +105,20 @@
           </div>
           <div class="footer-copyright">
             <div class="container">
-            © 2020 Todos Los Derechos Reservados
+            © 2021 Todos Los Derechos Reservados
             <a class="grey-text text-lighten-4 right" href="<a href='https://pngtree.com/so/social-icons'>social-icons png from pngtree.com</a>">fuente de iconos aqui</a>
             </div>
           </div>
-        </footer></br>  
+        </footer>
+   </br></br></br></br></br</br></br></br></br></br></br></br></br></br></br></br</br></br></br></br></br></br>
+    </div>
+            
+           
+         
+        
+       
+       
+       
         <script>  $('.tap-target').tapTarget('open');
                      $('.tap-target').tapTarget('close');</script>
 <script>

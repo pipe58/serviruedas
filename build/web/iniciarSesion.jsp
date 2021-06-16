@@ -165,13 +165,16 @@
     </div-->
 
        
-  </br></br></br></br></br>  <!--footer-->
-                <footer class="page-footer deep-purple darken-4">
+  </br></br></br></br></br> 
+  
+  
+   <!--footer-->
+    <footer class="page-footer deep-purple darken-4">
           <div class="container">
             <div class="row">
               <div class="col l2 m8 l4">
                 <h5 class="white-text"></h5>
-                <a href="index.jsp"><img  src="images/iconos/logo.png" width="250"></a>
+                <a href="index.jsp"><img  src="images/logo.png" width="300"></a>
               </div>
                  <div class="col 12 m8 l4">
                      <h4 class="white-text">Horarios</h4></br>
@@ -198,11 +201,15 @@
           </div>
           <div class="footer-copyright">
             <div class="container">
-            © 2020 Todos Los Derechos Reservados
+            © 2021 Todos Los Derechos Reservados
             <a class="grey-text text-lighten-4 right" href="<a href='https://pngtree.com/so/social-icons'>social-icons png from pngtree.com</a>">fuente de iconos aqui</a>
             </div>
           </div>
-        </footer></br>
+        </footer>
+   </br></br></br></br></br</br></br></br></br></br></br></br></br></br></br></br</br></br></br></br></br></br>
+    </div>
+        
+    
  
      
       <script>

@@ -49,7 +49,7 @@ public class TemplateCorreo {
                         "</tr>\n" + "\n" +
                         "<tr>\n" +
                         "<td bgcolor=\"#ee4c50\" style=\"padding: 30px 30px 30px 30px;\">\n" +
-                            "Footer \n" +
+                            "Serviruedas ® 2021 \n" +
                         "</td>\n" +
                         "</tr> \n" + "\n" +
                     "</table>\n" +
@@ -62,7 +62,7 @@ public class TemplateCorreo {
     
     public static String latex(String tex) {
         String url = "http://chart.apis.google.com/chart?cht=tx&chl=" + tex;
-        return "<img style=\"-webkit-user-select: none\" alt=\"ServiRuedas\" width=\"80\" height=\"60\" src=\"" + url + "\"/>";
+        return "<img style=\"-webkit-user-select: none\" alt=\"ServiRuedas\" width=\"100\" height=\"80\" src=\"" + url + "\"/>";
     }
     
      public static void main (String [] args){
