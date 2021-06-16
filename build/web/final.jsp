@@ -9,9 +9,8 @@
 <meta charset="UTF-8">
 <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
 <html>
-    
-    <head>
-            <!--Import Google Icon Font-->
+   <head>
+        <!--Import Google Icon Font-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
@@ -20,18 +19,73 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
     <body>
-        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
+      
+<div class="section no-padding">
+    <div style="background-image:url('images/Grupo 6.png');height: 140px"><span class="flow-text"></span></div></div>      
       <!-- nav de menu-->
-       <nav>
-    <div class="nav-wrapper yellow darken-4">
-      <a href="index.jsp" class="brand-logo">ServiRuedas</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="productos.jsp">Productos</a></li>
-        <li><a href="historia.jsp">Historia</a></li>
-        <li><a href="contacto.jsp">Contacto</a></li>
+      <!-- Dropdown Structure1 -->
+<ul id="11" class="dropdown-content">
+  <li><a href="#!">one</a></li>
+  <li><a href="#!">two</a></li>
+  <li class="divider"></li>
+  <li><a href="#!">three</a></li>
+</ul>
+      <!-- Dropdown Structure2 -->
+<ul id="dropdown1" class="dropdown-content">
+  <li><a href="#!">one</a></li>
+  <li><a href="#!">two</a></li>
+  <li class="divider"></li>
+  <li><a href="#!">three</a></li>
+</ul>  
+      
+   
+     
+    <ul id = "dropdown2" class = "dropdown-content" >
+         <li><a href = "servicios.jsp">Cambios de aceite<span class = "badge"></span></a></li>
+           <li class = "divider"></li>
+         <li><a href = "servicios.jsp">Cambios de ruedas<span class = "badge"></span></a></li>
+           <li class = "divider"></li>
+         <li><a href = "servicios.jsp">Manejo de fugas</a></li>
+         <li class = "divider"></li>
+         <li><a href = "servicios.jsp">Arreglo de motor<span class = "badge"></span></a></li>
       </ul>
+          <ul id = "dropdown" class = "dropdown-content" >
+         <li><a href = "productos.jsp">Ruedas<span class = "badge"></span></a></li>
+           <li class = "divider"></li>
+         <li><a href = "productos.jsp">Motor<span class = "new badge"></span></a></li>
+           <li class = "divider"></li>
+         <li><a href = "productos.jsp">Frenos</a></li>
+         <li class = "divider"></li>
+         <li><a href = "productos.jsp">Y mucho más<span class = "badge"></span></a></li>
+      </ul>
+      
+     
+       <!--inicio menu-->
+      <nav> 
+          <div class="nav-wrapper  pink darken-4 "  >
+          <div class="row">
+                         
+      <a href="index.jsp" class="brand-logo">Taller ServiRuedas</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down col s9">
+        <li><a class="dropdown-trigger"  data-activates="dropdown">Repuestos<i class="material-icons right">arrow_drop_down</i></a></li>
+       <!-- Dropdown Trigger -->
+      <li><a class="dropdown-trigger"  data-activates="dropdown2">Servicios<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a href="profesionales.jsp">Profesionales</a></li>
+        <li><a class="no-select">     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a></li>
+            <li  class="right"><a href="iniciarSesion.jsp">Iniciar Sesión</a></li>
+              <li class="right"><a href="contacto.jsp">Contacto</a></li>
+              
+              
+              <li class="right"><a href="historia.jsp">Nosotros</a></li>
+      </ul>
+    
     </div>
+          </div>
        </nav></br></br></br></br></br>
        
        <h4 style="margin :10px;">“Datos ingresados correctamente. Lo contactaremos”. </h4>
@@ -42,8 +96,7 @@
                  </a> <i class="material-icons right">send</i>
   </button>
                    
-             </div></div></br></br></br></br>
-         
+             </div></div></br></br></br></br>      
   
              
              
