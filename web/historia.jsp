@@ -65,17 +65,17 @@
           </div>
        </nav></br>
       
-      <!--video-->
+        <!--video-->
          <div class="video-container">
-        <iframe width="853" height="480" src="//www.youtube.com/embed/M7faecEgYfA?rel=0" frameborder="0" allowfullscreen></iframe>
+        <iframe width="853" height="480" src="//www.youtube.com/embed/NGIhMzjuGrQ?rel=0" frameborder="0" allowfullscreen></iframe>
          </div></br></br></br>
          
-         <div class="section" >
-             <h3 class="red-text accent-4 center" style="margin-left: 2rem;">Antiguedades Millaray, rescatando el patrimonio, memorias e historia </br>
+         <div class="section center" >
+             <span class="red-text accent-4 centered" style=" background: white;font-size: 45px">Antiguedades Millaray, rescatando el patrimonio, memorias e historia </br>
                  desde 1887
-             </h3>
+             </span>
              
-         </div>
+         </div></br></br></br></br></br></br></br></br></br></br></br>
         
       
       <!--footer-->
@@ -115,7 +115,7 @@
             <a class="grey-text text-lighten-4 right" href="<a href='https://pngtree.com/so/social-icons'>social-icons png from pngtree.com</a>">fuente de iconos aqui</a>
             </div>
           </div>
-        </footer></br>
+        </footer></br></br></br></br></br></br></br></br></br>
       
       <script>
    
