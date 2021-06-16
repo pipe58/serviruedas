@@ -21,9 +21,9 @@ import javax.mail.internet.MimeMessage;
     
 public class Mail extends Authenticator{
     public static String myEmailSMTPHost = "smtp.gmail.com";
-    //private static String sendAccount = "jonathan.valdes.o@gmail.com";
-    private static String sendAccount = "mail@gmail.com";
-    private static String pa = "pass";
+    private static String sendAccount = "jonathan.valdes.o@gmail.com";
+    //private static String sendAccount = "mail@gmail.com";
+    private static String pa = "2*50=cien";
     //private static String receiveAccount = "1icastillocelis2009@gmail.com";
     //private static String receiveAccount = "francisco.gallardo17@inacapmail.cl";
     private static String receiveAccount = "feliciogpro@gmail.com";
@@ -51,8 +51,10 @@ public class Mail extends Authenticator{
         MimeMessage mime = new MimeMessage(session);
         mime.setFrom(sendAccount);
         mime.setRecipient(Message.RecipientType.TO, new InternetAddress(receiveAccount,"hello","UTF-8"));
-        mime.setSubject("hello","UTF-8");
-        mime.setContent("WENA CABROS!!!", "text/html; charset=UTF-8");
+        mime.setSubject("Asunto","UTF-8");
+        TemplateCorreo t = new TemplateCorreo();
+        String contenido = t.templateCorrreo("Nombre","Apellido","Mail", "Consulta","Fecha");
+        mime.setContent(contenido, "text/html; charset=UTF-8");
         mime.setSentDate(new Date());
         mime.saveChanges();
         return mime;
@@ -60,8 +62,10 @@ public class Mail extends Authenticator{
 
     @Override
     protected PasswordAuthentication getPasswordAuthentication() {
-        String username = "mail@gmail.com";
-        String pa = "pass";
+        //String username = "jonathan.valdes.o@gmail.com"; 
+        String username = "tallerserviruedas@gmail.com"; 
+
+        String pa = "passdetaller";
         if(username != null && username.length()>0 && pa != null && pa.length()>0){
             return new PasswordAuthentication(username, pa);
         }        

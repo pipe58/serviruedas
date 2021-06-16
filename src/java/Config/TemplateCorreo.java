@@ -11,7 +11,7 @@ package Config;
  */
 public class TemplateCorreo {
     
-    public String templateCorrreo(){
+    public String templateCorrreo(String nombre, String apellido, String correo, String consulta, String fecha){
         
         String template = "";
         
@@ -25,8 +25,8 @@ public class TemplateCorreo {
                 "<body style=\"margin: 0; padding: 0;\"> \n" + "\n" +
                     "<table align=\"center\" border=\"1\" cellpadding=\"0\" cellspacing=\"0\" width=\"600\">\n" +"\n" +
                         "<tr>\n" +
-                            "<td align=\"center\" bgcolor=\"#70bbd9\" style=\"padding: 40px 0 30px 0;\">\n" +
-                
+                            "<td align=\"center\" style=\"padding: 40px 0 30px 0;\">\n" +
+                                latex("ServiRuedas") +
                                // "<img src=\"images/h1.gif\" alt=\"Creating Email Magic\" width=\"300\" height=\"230\" style=\"display: block;\" />\n" +
                             "</td>\n" +
                         "</tr>\n" +
@@ -34,8 +34,17 @@ public class TemplateCorreo {
                             "<td> Formulario de Contacto </td>\n" +
                         "</tr>\n" +
                         "<tr>\n" +
-                            "<td style=\"padding: 20px 0 30px 0;\">\n" +
-                                "Mensaje de Consulta del Correo. \n" +
+                            "<td style=\"padding: 20px 0 30px 0;\">\n" +  
+                                "</br>" + 
+                                "<p> Nombre:" + nombre + " " + apellido + " </p>" +
+                                //"</br>" +                                
+                                "<p> Contacto: " + correo + " </p>" +
+                                //"</br>" +
+                                "<p> Fecha:" + fecha + " </p>" +
+                                "</br>" +
+                                "<p> Consulta: " + consulta + " </p>" +
+                                "</br>" +
+
                             "</td> \n" +
                         "</tr>\n" + "\n" +
                         "<tr>\n" +
@@ -53,7 +62,7 @@ public class TemplateCorreo {
     
     public static String latex(String tex) {
         String url = "http://chart.apis.google.com/chart?cht=tx&chl=" + tex;
-        return "<img style=\"-webkit-user-select: none\" alt=\"ServiRuedas\" width=\"300\" height=\"230\" src=\"" + url + "\"/>";
+        return "<img style=\"-webkit-user-select: none\" alt=\"ServiRuedas\" width=\"80\" height=\"60\" src=\"" + url + "\"/>";
     }
     
      public static void main (String [] args){
