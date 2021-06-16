@@ -25,13 +25,16 @@
       
 <div class="section no-padding">
     <div style="background-image:url('images/Grupo 6.png');height: 140px"><span class="flow-text"></span></div></div>      
-      <!-- nav de menu-->
+           <!-- nav de menu-->
       <!-- Dropdown Structure1 -->
 <ul id="11" class="dropdown-content">
-  <li><a href="#!">one</a></li>
-  <li><a href="#!">two</a></li>
+  <li><a href="#!">Ruedas</a></li>
+    <li class="divider"></li>
+  <li><a href="#!">Motor</a></li>
   <li class="divider"></li>
-  <li><a href="#!">three</a></li>
+  <li><a href="#!">Frenos</a></li>
+    <li class="divider"></li>
+     <li><a href="#!">Y mucho más</a></li>
 </ul>
       <!-- Dropdown Structure2 -->
 <ul id="dropdown1" class="dropdown-content">
@@ -43,45 +46,46 @@
       
    
      
-    <ul id = "dropdown2" class = "dropdown-content" >
-         <li><a href = "servicios.jsp">Cambios de aceite<span class = "badge"></span></a></li>
+    
+      <ul id = "dropdown2" class = "dropdown-content" >
+         <li><a href = "servicios.html">Cambios de aceite<span class = "badge"></span></a></li>
            <li class = "divider"></li>
-         <li><a href = "servicios.jsp">Cambios de ruedas<span class = "badge"></span></a></li>
+         <li><a href = "servicios.html">Cambios de ruedas<span class = "badge"></span></a></li>
            <li class = "divider"></li>
-         <li><a href = "servicios.jsp">Manejo de fugas</a></li>
+         <li><a href = "servicios.html">Manejo de fugas</a></li>
          <li class = "divider"></li>
-         <li><a href = "servicios.jsp">Arreglo de motor<span class = "badge"></span></a></li>
+         <li><a href = "servicios.html">Arreglo de motor<span class = "badge"></span></a></li>
       </ul>
           <ul id = "dropdown" class = "dropdown-content" >
-         <li><a href = "productos.jsp">Ruedas<span class = "badge"></span></a></li>
+         <li><a href = "productos.html">Ruedas<span class = "badge"></span></a></li>
            <li class = "divider"></li>
-         <li><a href = "productos.jsp">Motor<span class = "new badge"></span></a></li>
+         <li><a href = "productos.html">Motor<span class = "new badge"></span></a></li>
            <li class = "divider"></li>
-         <li><a href = "productos.jsp">Frenos</a></li>
+         <li><a href = "productos.html">Frenos</a></li>
          <li class = "divider"></li>
-         <li><a href = "productos.jsp">Y mucho más<span class = "badge"></span></a></li>
+         <li><a href = "productos.html">Y mucho más<span class = "badge"></span></a></li>
       </ul>
       
      
-       <!--inicio menu-->
+    <!--inicio menu-->
       <nav> 
           <div class="nav-wrapper  pink darken-4 "  >
           <div class="row">
                          
-      <a href="index.jsp" class="brand-logo">Taller ServiRuedas</a>
+      <a href="index.html" class="brand-logo">Taller ServiRuedas</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down col s9">
         <li><a class="dropdown-trigger"  data-activates="dropdown">Repuestos<i class="material-icons right">arrow_drop_down</i></a></li>
        <!-- Dropdown Trigger -->
       <li><a class="dropdown-trigger"  data-activates="dropdown2">Servicios<i class="material-icons right">arrow_drop_down</i></a></li>
-        <li><a href="profesionales.jsp">Profesionales</a></li>
+        <li><a href="profesionales.html">Profesionales</a></li>
         <li><a class="no-select">     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a></li>
-            <li  class="right"><a href="iniciarSesion.jsp">Iniciar Sesión</a></li>
-              <li class="right"><a href="contacto.jsp">Contacto</a></li>
+            <li  class="right"><a href="iniciarSesion.html">Iniciar Sesión</a></li>
+              <li class="right"><a href="contacto.html">Contacto</a></li>
               
               
-              <li class="right"><a href="historia.jsp">Nosotros</a></li>
+              <li class="right"><a href="historia.html">Nosotros</a></li>
       </ul>
     
     </div>
