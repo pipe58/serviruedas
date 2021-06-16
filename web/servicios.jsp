@@ -69,7 +69,44 @@
           </div>
        </nav>
      
-      
+       <div class="section "  style="background-image:url('images/f1.png')">
+     <!-- aquicodigo-->   
+  
+     
+     
+     
+  <div class="slider full" style=" width:  1500px!important;margin: auto">
+      <ul class="slides"style="height: 300px!important">
+      <li>
+          <img src="images/nuevoServicios2.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>Taller ServiRuedas!</h3>
+          <h5 class="light grey-text text-lighten-3">Servicios Automotrices</h5>
+        </div>
+      </li>
+      <li>
+           <img class="materialboxed "   src="images/nuevaCambioMotor.jpg">
+        <div class="caption left-align">
+          <h3>Reparación de Motor</h3>
+          <h5 class="light grey-text text-lighten-3">Varias marcas asociadas</h5>
+        </div>
+      </li>
+      <li>
+         <img class="materialboxed " style="align-items: center;"  src="images/nuevaCambio.jpg">
+        <div class="caption right-align">
+          <h3>Cambios de Aceite</h3>
+          <h5 class="light grey-text text-lighten-3">Los mejores productos en la tienda</h5>
+        </div>
+      </li>
+      <li>
+          <img class="materialboxed "   src="images/nuevaRuedas.jpg">
+        <div class="caption right-align">
+          <h3>Cambio de Ruedas</h3>
+          <h5 class="light grey-text text-lighten-3">Instalación con los mejores profesionales</h5>
+        </div>
+      </li>
+    </ul>
+  </div></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
       
       
       
