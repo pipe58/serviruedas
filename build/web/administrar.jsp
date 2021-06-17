@@ -107,19 +107,24 @@ and open the template in the editor.
              
         <tbody>
           <tr>
-              <td style="font-size: 26px">Descargar Boleta de Pago</td>
+              <td style="font-size: 26px">Ingreso de Atención</td>
             <td></td>
             <td><a class="btn-floating btn-large pulse black"><i class="material-icons">arrow_downward</i></a></td>
           </tr>
           <tr>
-            <td style="font-size: 26px">Ver Stock</td>
+            <td style="font-size: 26px">Stock</td>
             <td></td>
             <td><a class="btn-floating btn-large pulse red"><i class="material-icons">arrow_downward</i></a></td>
           </tr>
           <tr>
-            <td style="font-size: 26px">Agregar una petición</td>
+            <td style="font-size: 26px">Consulta de Atenciones</td>
             <td></td>
             <td><a class="btn-floating btn-large pulse yellow"><i class="material-icons ">arrow_downward</i></a></td>
+          </tr>
+          <tr>
+            <td style="font-size: 26px">Consulta Estado Vehículo</td>
+            <td></td>
+            <td><a class="btn-floating btn-large pulse green"><i class="material-icons ">arrow_downward</i></a></td>
           </tr>
         </tbody>
       </table>
