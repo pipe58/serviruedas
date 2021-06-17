@@ -31,8 +31,8 @@ public class TemplateCorreo {
                         //"</tr>\n" +
                 
                         "<tr>\n" +
-                            "<td align=\"left\" style=\"padding: 5px 0 5px 0;\">\n" +   
-                              latex("Servi") + "" + latex("Ruedas") +
+                            "<td align=\"left\" style=\"padding: 5px 5px 5px 5px;\">\n" +   
+                              latex("Servi") + " " + latex("Ruedas") +
                            "</td>\n" +
                         "</tr>\n" +
 

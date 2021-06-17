@@ -8,6 +8,8 @@
 <!DOCTYPE html>
 <html>
      <head>
+          <title>Nosotros</title>
+          <link rel="shortcut icon" href="images/iconos/icono.ico">
         <!--Import Google Icon Font-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
@@ -86,20 +88,20 @@
           </div>
        </nav></br>
       
+       <div class="section "  style="background-image:url('images/f1.png')"></br>
         <!--video-->
          <div class="video-container">
         <iframe width="853" height="480" src="//www.youtube.com/embed/NGIhMzjuGrQ?rel=0" frameborder="0" allowfullscreen></iframe>
          </div></br></br></br>
          
+         
          <div class="section center" >
-             <span class="red-text accent-4 centered" style=" background: white;font-size: 45px"En taller ServiRuedas encontrará los mejores Profesionales y Productos</br>
+             <span class="red-text accent-4 centered" style=" background: white;font-size: 45px"/>En taller ServiRuedas encontrará los mejores Profesionales y Productos</br>
                al precio justo!
              </span>
              
          </div></br></br></br></br></br></br></br></br></br></br></br>
         
-      
-
    <!--footer-->
     <footer class="page-footer deep-purple darken-4">
           <div class="container">

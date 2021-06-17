@@ -12,6 +12,9 @@
 <html>
    
     <head>
+        <title>Inicio</title>
+        <link rel="shortcut icon" href="images/iconos/icono.ico">
+        
         <!--Import Google Icon Font-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
@@ -262,7 +265,7 @@ ajustadores mecánicos y caldereros, todos ellos con una formación y una experi
           </div>
           <div class="footer-copyright">
             <div class="container">
-            © 2021 Todos Los Derechos Reservados
+            © 202 Todos Los Derechos Reservados
             <a class="grey-text text-lighten-4 right" href="<a href='https://pngtree.com/so/social-icons'>social-icons png from pngtree.com</a>">fuente de iconos aqui</a>
             </div>
           </div>
@@ -271,7 +274,7 @@ ajustadores mecánicos y caldereros, todos ellos con una formación y una experi
     </div>
         
         
-                
+            
         
        <script>
    $( document ).ready(function(){

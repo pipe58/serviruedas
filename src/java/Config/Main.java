@@ -18,6 +18,10 @@ public class Main {
         ResultSet rs;
         try {
             String sql="select * from clientes";
+            //String sql="select * from clientes";
+
+            // 
+            
             con=cn.getConnection();
             ps=con.prepareStatement(sql);
             rs=ps.executeQuery();
@@ -32,5 +36,11 @@ public class Main {
             System.out.println("");            
         }
     }
+    
+    public static String ConsultaProductos(){
+        String consulta = "Select p.idproducto, p.nombre, p.descripcion, p.valorneto, p.stock, c.nombre as Categoria from producto p \n" +
+                            " inner join categoriaproducto c on p.idcategoria = c.idcategoria"; 
+        return consulta;
+    } 
     
 }

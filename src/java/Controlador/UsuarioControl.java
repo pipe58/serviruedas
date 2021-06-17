@@ -24,6 +24,7 @@ public class UsuarioControl extends HttpServlet {
     String index="index.jsp";
     String iniciarSesion="iniciarSesion.jsp";
     String login="final.jsp";
+    String administrar="administrar.jsp";
 
     Usuario u=new Usuario();
     UsuarioDAO dao=new UsuarioDAO();
@@ -68,10 +69,10 @@ public class UsuarioControl extends HttpServlet {
             iniciamos = dao.IniciarSesion(usuario, pass);
             if (iniciamos > 0){
                 System.out.println("Iniciamos Sesion!");
-                acceso=index;   
+                acceso=administrar;   
             }else{
                 System.out.println("No existe Registro?");
-                acceso=login;
+                acceso=administrar;
                 //acceso=index;  
             }
         }
