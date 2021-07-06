@@ -48,8 +48,8 @@ public class Mail extends Authenticator{
     }
 
     private static MimeMessage createMimeMessage(Session session,String sendAccount,String receiveAccount) throws MessagingException, UnsupportedEncodingException{
-        MimeMessage mime = new MimeMessage(session);
-        mime.setFrom(sendAccount);
+        MimeMessage mime = new MimeMessage(session);        
+        mime.setFrom(new InternetAddress(sendAccount));
         mime.setRecipient(Message.RecipientType.TO, new InternetAddress(receiveAccount,"hello","UTF-8"));
         mime.setSubject("Asunto","UTF-8");
         TemplateCorreo t = new TemplateCorreo();

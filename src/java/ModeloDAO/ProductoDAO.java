@@ -23,19 +23,27 @@ public class ProductoDAO implements IProductos{
     
     @Override
     public Producto VerStock(String idProducto) {
-        Producto p = new Producto();
+        Producto p = null;
         int retorno = -1;
-        String sql="select * from Producto where idProdc; ";
+        String sql="select idproducto, nombre, descripcion, valorneto, stock, idcategoria from Producto where lower(idproducto)='sku-5';";
         System.out.println(sql);
         try {
             con=cn.getConnection();
             ps=con.prepareStatement(sql);
             rs=ps.executeQuery();
             while(rs.next()){
-                retorno = 1;
+                // u.setIdusuario(rs.getString("idusuario"));
+                p = new Producto();
+                p.setIdproducto(rs.getString("idproducto"));
+                p.setNombre(rs.getString("nombre"));
+                p.setDescripcion(rs.getString("descripcion"));
+                p.setValorNeto(Double.valueOf(rs.getString("valorneto")));
+                p.setStock(Integer.parseInt(rs.getString("stock")));
+                p.setStock(Integer.parseInt(rs.getString("idcategoria")));
+                
             }
         } catch (Exception e) {
-            System.out.println("Error al itraer Producto: " + e.getMessage());
+            System.out.println("Error al Listar Producto: " + e.getMessage());
         }
         
         return p;
@@ -45,5 +53,6 @@ public class ProductoDAO implements IProductos{
     public ArrayList<Producto> listadoProductos() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+   
     
 }

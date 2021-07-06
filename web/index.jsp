@@ -269,6 +269,12 @@ ajustadores mecánicos y caldereros, todos ellos con una formación y una experi
             <a class="grey-text text-lighten-4 right" href="<a href='https://pngtree.com/so/social-icons'>social-icons png from pngtree.com</a>">fuente de iconos aqui</a>
             </div>
           </div>
+                    
+            <div class="footer-copyright">
+                <div class="container">
+                    <a href="PDF">Generar PDF</a>     
+                </div>
+          </div>          
         </footer>
    </br></br></br></br></br</br></br></br></br></br></br></br></br></br></br></br</br></br></br></br></br></br>
     </div>

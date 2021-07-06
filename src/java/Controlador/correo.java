@@ -100,7 +100,7 @@ public class correo extends HttpServlet {
 
             try {
                 MimeMessage mime = new MimeMessage(session);
-                mime.setFrom(sendAccount);
+                mime.setFrom(new InternetAddress(sendAccount));
                 mime.setRecipient(Message.RecipientType.TO, new InternetAddress(receiveAccount,"hello","UTF-8"));
                 mime.setSubject("Fomulario de Contacto ServiRuedas","UTF-8");
                 

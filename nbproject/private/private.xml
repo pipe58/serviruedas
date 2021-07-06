@@ -3,11 +3,31 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/ServiRuedas/Repo/serviruedas/src/java/ModeloDAO/UsuarioDAO.java</file>
-            <file>file:/C:/ServiRuedas/Repo/serviruedas/src/java/Config/Correos.java</file>
+            <file>file:/C:/ServiRuedas/Repo/serviruedas/web/profesionales.jsp</file>
+            <file>file:/C:/ServiRuedas/Repo/serviruedas/web/servicios.jsp</file>
+            <file>file:/C:/ServiRuedas/Repo/serviruedas/src/java/Config/Mail.java</file>
+            <file>file:/C:/ServiRuedas/Repo/serviruedas/web/administrar.jsp</file>
             <file>file:/C:/ServiRuedas/Repo/serviruedas/src/java/Config/Conexion.java</file>
-            <file>file:/C:/ServiRuedas/Repo/serviruedas/src/java/Config/Main.java</file>
+            <file>file:/C:/ServiRuedas/Repo/serviruedas/src/java/Config/TemplateCorreo.java</file>
+            <file>file:/C:/ServiRuedas/Repo/serviruedas/src/java/Controlador/UsuarioControl.java</file>
+            <file>file:/C:/ServiRuedas/Repo/serviruedas/src/java/ModeloDAO/ContactoDAO.java</file>
+            <file>file:/C:/ServiRuedas/Repo/serviruedas/web/index.jsp</file>
+            <file>file:/C:/ServiRuedas/Repo/serviruedas/web/iniciarSesion.jsp</file>
+            <file>file:/C:/ServiRuedas/Repo/serviruedas/src/java/Interfaces/IContacto.java</file>
             <file>file:/C:/ServiRuedas/Repo/serviruedas/src/java/Controlador/correo.java</file>
+            <file>file:/C:/ServiRuedas/Repo/serviruedas/web/css/materialize.css</file>
+            <file>file:/C:/ServiRuedas/Repo/serviruedas/src/java/Interfaces/IProductos.java</file>
+            <file>file:/C:/ServiRuedas/Repo/serviruedas/src/java/ModeloDAO/ClienteDAO.java</file>
+            <file>file:/C:/ServiRuedas/Repo/serviruedas/src/java/ModeloDAO/ProductoDAO.java</file>
+            <file>file:/C:/ServiRuedas/Repo/serviruedas/src/java/ModeloDAO/UsuarioDAO.java</file>
+            <file>file:/C:/ServiRuedas/Repo/serviruedas/src/java/Config/Main.java</file>
+            <file>file:/C:/ServiRuedas/Repo/serviruedas/web/contacto.jsp</file>
+            <file>file:/C:/ServiRuedas/Repo/serviruedas/src/java/Config/Autenticator.java</file>
+            <file>file:/C:/ServiRuedas/Repo/serviruedas/web/historia.jsp</file>
+            <file>file:/C:/ServiRuedas/Repo/serviruedas/web/final.jsp</file>
+            <file>file:/C:/ServiRuedas/Repo/serviruedas/web/productos.jsp</file>
+            <file>file:/C:/ServiRuedas/Repo/serviruedas/src/java/Modelo/Producto.java</file>
+            <file>file:/C:/ServiRuedas/Repo/serviruedas/nbproject/build-impl.xml</file>
         </group>
     </open-files>
 </project-private>
