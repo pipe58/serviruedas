@@ -73,15 +73,16 @@
           <div class="nav-wrapper  pink darken-4 "  >
           <div class="row">
                          
-      <a href="index.jsp" class="brand-logo">Taller ServiRuedas</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down col s9">
+      <a id="servi" href="index.jsp" class="brand-logo left-align">Taller ServiRuedas</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down col s9 ">
         <li><a class="dropdown-trigger"  data-activates="dropdown">Repuestos<i class="material-icons right">arrow_drop_down</i></a></li>
        <!-- Dropdown Trigger -->
+       
+       
+       
       <li><a class="dropdown-trigger"  data-activates="dropdown2">Servicios<i class="material-icons right">arrow_drop_down</i></a></li>
         <li><a href="profesionales.jsp">Profesionales</a></li>
-        <li><a class="no-select">     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a></li>
+        <li><a class="no-select">    &nbsp;&nbsp;</a></li>
             <li  class="right"><a href="iniciarSesion.jsp">Iniciar Sesión</a></li>
               <li class="right"><a href="contacto.jsp">Contacto</a></li>
               
