@@ -72,15 +72,16 @@
           <div class="nav-wrapper  pink darken-4 "  >
           <div class="row">
                          
-      <a href="index.jsp" class="brand-logo">Taller ServiRuedas</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down col s9">
+      <a id="servi" href="index.jsp" class="brand-logo left-align">Taller ServiRuedas</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down col s9 ">
         <li><a class="dropdown-trigger"  data-activates="dropdown">Repuestos<i class="material-icons right">arrow_drop_down</i></a></li>
        <!-- Dropdown Trigger -->
+       
+       
+       
       <li><a class="dropdown-trigger"  data-activates="dropdown2">Servicios<i class="material-icons right">arrow_drop_down</i></a></li>
         <li><a href="profesionales.jsp">Profesionales</a></li>
-        <li><a class="no-select">     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a></li>
+        <li><a class="no-select">    &nbsp;&nbsp;</a></li>
             <li  class="right"><a href="iniciarSesion.jsp">Iniciar Sesión</a></li>
               <li class="right"><a href="contacto.jsp">Contacto</a></li>
               
@@ -94,14 +95,14 @@
        
            <!--inicio menu profuctos -->
 <div class="section "  style="background-image:url('images/f1.png')">
-       <div class="row">
+      <div class="row">
        <div class="section" style="margin-left: 6px;">
-      <div class="col s5 push-s7  ">    
+        <div class="col s5 push-s7">
           <h5 style="color: red" ><span class="mark background: white"> &nbsp;&nbsp;&nbsp;&nbsp;  Repuestos &nbsp;&nbsp;&nbsp;&nbsp; </span></h5>
-    <a >
-         <div class="row">
-    <div class="col s12 m12">
-      <div class="card-panel teal" style="height: 455px;">
+    
+       
+    
+      <div class="card-panel teal" style="">
           <span class="white-text"><h2 class="yellow-text accent-4 "style="font-size: 24px;font-weight: bolder">RUEDAS DE DIFERENTES TAMAÑOS, CLASES Y MARCAS.</h2>
                <h4 class="yellow-text bold"style="font-size: 18px;font-weight: bolder "   >°LLANTAS RADIALES</h4>
 Esta clase de neumáticos de gran precisión son los más comunes hoy en día. En términos de anatomía, las cuerdas
@@ -116,28 +117,35 @@ de las capas corren de ceja a ceja formando semi-óvalos, y sobre su contorno, s
               
         </span>
       </div>
-    </div>
+ 
   </div>
             
-    </a>
+    
+          
+              
+     <div class="col s7 pull-s5">
+          <span class="mark background: white" style="font-size: 25px;">Ruedas</span></br>
+      <div class="card">
+        <div class="card-image">
+            <img src="images/nuevaRuedas.jpg" style="">
+         
+        </div>
+        
+      
       </div>
-           <div class="col s7 pull-s5">    
-               <span class="mark background: white" style="font-size: 25px;">Ruedas</span></br></br>
-    <a ><img src="images/nuevaRuedas.jpg" style="width:857px"></a> 
-      </div>
-       </div>
-            </div>
+    </div>
+       </div></div>
        
-   <div class="divider"></div>
-     <div class="row">
-       <div class="section" style="margin-left: 6px;">
+           <!--segunda tarjeta-->
+   <div class="divider">  </div>
+       
+   <div class="row">
+ <div class="section" style="margin-left: 6px;">
   <div class="col s5 push-s7  ">    
-          <h5 style="color: red" ><span class="mark background: white"> &nbsp;&nbsp;&nbsp;&nbsp;  Repuestos &nbsp;&nbsp;&nbsp;&nbsp; </span></h5>
-    <a >
-         <div class="row">
-    <div class="col s12 m12">
-      <div class="card-panel teal" style="height: 455px;">
-          <h4 class="yellow-text accent-4 "style="font-size: 24px; font-weight: bolder"   >REPUESTOS DE CARROCERÍAS DE DIFERENTES MARCAS</h4>
+    <h5 style="color: red" ><span class="mark background: white"> &nbsp;&nbsp;&nbsp;&nbsp;  Repuestos &nbsp;&nbsp;&nbsp;&nbsp; </span></h5>
+               
+      <div class="card-panel teal">
+        <span class="white-text"> <h4 class="yellow-text accent-4 "style="font-size: 24px; font-weight: bolder"   >REPUESTOS DE CARROCERÍAS DE DIFERENTES MARCAS</h4>
           <h4 class="white-text accent-4 "style="font-size: 18px; font-weight: bolder"   >°Chevrolet</h4>
     <h4 class="white-text accent-4 "style="font-size: 18px; font-weight: bolder"   >°Fiat</h4>
     <h4 class="white-text accent-4 "style="font-size: 18px; font-weight: bolder"   >°Hyundai</h4>
@@ -146,28 +154,38 @@ de las capas corren de ceja a ceja formando semi-óvalos, y sobre su contorno, s
                 <h4 class="white-text accent-4 "style="font-size: 18px; font-weight: bolder"   >°Audi</h4>
                     <h4 class="white-text accent-4 "style="font-size: 18px; font-weight: bolder"   >°Mitsubishi</h4>
                     <h4 class="white-text accent-4 "style="font-size: 18px; font-weight: bolder"   >Y muchos más</h4>
-
-      </div>
-    </div>
-  </div>
-            
-    </a>
-      </div>
-           <div class="col s7 pull-s5">    
-               <span class="mark background: white" style="font-size: 25px;">Carroceria</span></br></br>
-               <a ><img src="images/nuevaRepuestos.jpg" style="width: 860px"></a> 
-      </div>
+        </span>
+      </div>        
+                
+         </div>
+       
+       
+           <div class="col s7 pull-s5">
+                 <span class="mark background: white" style="font-size: 25px;">Carroceria</span></br>
+     <div class="card">
+        <div class="card-image">
+            <img src="images/nuevaRepuestos.jpg" style="">
+          
+        </div>
+       
        </div>
                 </div>
+   </div>
+       </div>
+           
+           
+           
+   <!--tercera tarjeta-->
        <div class="divider"></div>
+       
          <div class="row">
            <div class="section" style="margin-left: 6px;">
       <div class="col s5 push-s7  ">    
               <h5 style="color: red" ><span class="mark background: white"> &nbsp;&nbsp;&nbsp;&nbsp;  Repuestos &nbsp;&nbsp;&nbsp;&nbsp; </span></h5>
         <a >
              <div class="row">
-        <div class="col s12 m12">
-          <div class="card-panel teal" style="height: 455px;">
+       
+          <div class="card-panel teal" style="height: 450px">
                      <h4 class="yellow-text accent-4 "style="font-size: 24px; font-weight: bolder"   >
                          REPUESTOS DE MOTOR DE DIFERENTES MARCAS</h4>
                                <h4 class="white-text bold"style="font-size: 18px;font-weight: bolder "   >°LLAVES DE PASO</h4>
@@ -178,15 +196,24 @@ de las capas corren de ceja a ceja formando semi-óvalos, y sobre su contorno, s
 
 
           </div>
-        </div>
+    
       </div>
 
         </a>
           </div>
-               <div class="col s7 pull-s5">    
-                   <span class="mark background: white" style="font-size: 25px;">Motor</span></br></br>
-                   <a ><img src="images/nuevaMotor.jpg" style="width: 850px;height: 460px;"></a> 
-          </div>
+               
+                <div class="col s7 pull-s5">
+      <div class="card">
+        <div class="card-image">
+            <img src="images/nuevaMotor.jpg" style="">
+         
+        </div>
+     
+      </div>
+    </div>
+               
+               
+           
            </div>
                 </div></br></br></br></br></br></br></br></br></br></br></br></br>
       
