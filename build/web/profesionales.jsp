@@ -77,15 +77,16 @@ and open the template in the editor.
           <div class="nav-wrapper  pink darken-4 "  >
           <div class="row">
                          
-      <a href="index.jsp" class="brand-logo">Taller ServiRuedas</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down col s9">
+      <a id="servi" href="index.jsp" class="brand-logo left-align">Taller ServiRuedas</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down col s9 ">
         <li><a class="dropdown-trigger"  data-activates="dropdown">Repuestos<i class="material-icons right">arrow_drop_down</i></a></li>
        <!-- Dropdown Trigger -->
+       
+       
+       
       <li><a class="dropdown-trigger"  data-activates="dropdown2">Servicios<i class="material-icons right">arrow_drop_down</i></a></li>
         <li><a href="profesionales.jsp">Profesionales</a></li>
-        <li><a class="no-select">     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a></li>
+        <li><a class="no-select">    &nbsp;&nbsp;</a></li>
             <li  class="right"><a href="iniciarSesion.jsp">Iniciar Sesión</a></li>
               <li class="right"><a href="contacto.jsp">Contacto</a></li>
               
@@ -99,14 +100,15 @@ and open the template in the editor.
        
        <!--inicio menu profuctos -->
 <div class="section "  style="background-image:url('images/f1.png')">
+       <!--primera carta-->
        <div class="row">
        <div class="section" style="margin-left: 6px;">
       <div class="col s5 push-s7  ">    
           <h5 style="color: red" ><span class="mark background: white"> &nbsp;&nbsp;&nbsp;&nbsp;  Personal operativo &nbsp;&nbsp;&nbsp;&nbsp; </span></h5>
-    <a >
-         <div class="row">
-    <div class="col s12 m12">
-      <div class="card-panel teal" style="height: 455px;">
+    
+        
+   
+      <div class="card-panel teal" style="">
           <span class="white-text"><h2 class="yellow-text accent-4 "style="font-size: 24px;font-weight: bolder">Profesionales capacitados y titulados.</h2>
                <h4 class="red-text bold"style="font-size: 18px;font-weight: bolder "   >°MECÁNICOS</h4>
 Personal con alta experiencia en el rubro, tanto en reparaciones estéticas como en la detección de problemas mecánicos y eléctricos. Además de alta capacidad de iniciativas, trabajo organizativo y capacidad de trabajar bajo presión.</br>
@@ -118,27 +120,35 @@ Personal con alta experiencia en el rubro, tanto en reparaciones estéticas como
               
         </span>
       </div>
+   
+ 
+      </div> 
+      
+           
+           <div class="col s7 pull-s5">
+          <span class="mark background: white" style="font-size: 25px;">Ruedas</span></br>
+      <div class="card">
+        <div class="card-image">
+            <img src="images/mecanico05.jpg" style="">
+          <span class="card-title">Card Title</span>
+        </div>
+       
+        
+      </div>
     </div>
-  </div>
-            
-    </a>
-      </div>
-           <div class="col s7 pull-s5">    
-               <span class="mark background: white" style="font-size: 25px;">Mecánico</span></br></br>
-    <a ><img src="images/mecanico05.jpg" style="width:857px"></a> 
-      </div>
        </div>
-            </div>
+       </div>
        
    <div class="divider"></div>
+   <!-- segunda carta-->
      <div class="row">
        <div class="section" style="margin-left: 6px;">
   <div class="col s5 push-s7  ">    
           <h5 style="color: red" ><span class="mark background: white"> &nbsp;&nbsp;&nbsp;&nbsp;  Personal Administrativo &nbsp;&nbsp;&nbsp;&nbsp; </span></h5>
-    <a >
-         <div class="row">
-    <div class="col s12 m12">
-      <div class="card-panel teal" style="height: 455px;">
+    
+       
+   
+      <div class="card-panel teal" style="">
           <h4 class="yellow-text accent-4 "style="font-size: 24px; font-weight: bolder"   >Alta capacidad de atención y solución de problemas.</h4>
           <h4 class="red-text accent-4 "style="font-size: 18px; font-weight: bolder"   >°ADMINISTRACIÓN</h4>
           <span class="white-text">Personal calificado enfocados en solucionar problemas y atención eficaz y expedita, con alta capacidad de trabajo organizativo y cuyo objetivo principal es mejorar la atención de los clientes.</span></br>
@@ -158,26 +168,35 @@ Personal con alta experiencia en el rubro, tanto en reparaciones estéticas como
     
     
       </div>
-    </div>
-  </div>
+   
+ 
             
-    </a>
+  
       </div>
-           <div class="col s7 pull-s5">    
-               <span class="mark background: white" style="font-size: 25px;">Administrativos</span></br></br>
-               <a ><img src="images/portada maquina de escribir.jpg" style="width: 860px"></a> 
-      </div>
-       </div>
+           
+            <div class="col s7 pull-s5">
+          <span class="mark background: white" style="font-size: 25px;">Ruedas</span></br>
+      <div class="card">
+        <div class="card-image">
+            <img src="images/portada maquina de escribir.jpg" style="">
+      
+        </div>
             </div>
+    </div>
+       </div>
+       </div>
+           
+          
    <div class="divider"></div>
+   
+   <!--tercera carta-->
+   
      <div class="row">
        <div class="section" style="margin-left: 6px;">
   <div class="col s5 push-s7  ">    
           <h5 style="color: red" ><span class="mark background: white"> &nbsp;&nbsp;&nbsp;&nbsp;  GERENCIA &nbsp;&nbsp;&nbsp;&nbsp; </span></h5>
-    <a >
-         <div class="row">
-    <div class="col s12 m12">
-      <div class="card-panel teal" style="height: 455px;">
+    
+      <div class="card-panel teal" style="height: 450px">
                  <h4 class="yellow-text accent-4 "style="font-size: 24px; font-weight: bolder"   >
                      Orientado al cumplimiento de metas.</h4>
                          <h4 class="red-text bold"style="font-size: 18px;font-weight: bolder "   >°GERENTE</h4>
@@ -191,16 +210,18 @@ Personal con alta experiencia en el rubro, tanto en reparaciones estéticas como
 
       </div>
     </div>
-  </div>
-            
-    </a>
-      </div>
-           <div class="col s7 pull-s5">    
-               <span class="mark background: white" style="font-size: 25px;">GERENCIA</span></br></br>
-               <a ><img src="images/viejo.jpg" style="width: 850px;height: 460px;"></a> 
-      </div>
-       </div>
-            </div></br></br></br></br></br></br></br></br></br></br></br></br>
+ 
+            <div class="col s7 pull-s5">
+          <span class="mark background: white" style="font-size: 25px;">Ruedas</span></br>
+      <div class="card">
+        <div class="card-image">
+            <img src="images/viejo.jpg" style="">
+          
+        </div></div></div></div></div>
+           
+           
+      
+               </br></br></br></br></br></br></br></br></br></br></br></br>
       
       
        <!--footer-->
